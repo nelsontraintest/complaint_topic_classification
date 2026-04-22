@@ -1,0 +1,27 @@
+# ─── Core ML ────────────────────────────────────────────────────────────────
+sentence-transformers==3.4.1
+setfit==1.1.0
+scikit-learn==1.6.1
+torch>=2.2.0
+
+# ─── Clustering / Dimensionality Reduction ───────────────────────────────────
+hdbscan==0.8.40
+umap-learn==0.5.7
+
+# ─── Local LLM (Gemma 4 via Ollama) ─────────────────────────────────────────
+ollama==0.4.7
+
+# ─── Data Generation & Processing ───────────────────────────────────────────
+pandas==2.2.3
+numpy==1.26.4
+faker==37.1.0
+
+# ─── Visualization ───────────────────────────────────────────────────────────
+plotly==5.24.1
+matplotlib==3.9.4
+seaborn==0.13.2
+
+# ─── Utilities ───────────────────────────────────────────────────────────────
+pyyaml==6.0.2
+tqdm==4.67.1
+rich==13.9.4

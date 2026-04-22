@@ -1,0 +1,63 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Complaint Classification System — Configuration
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ── Local LLM (Ollama / Gemma 4) ─────────────────────────────────────────────
+llm:
+  model: "gemma3:4b"          # Ollama model name; run: ollama pull gemma3:4b
+  base_url: "http://localhost:11434"
+  temperature: 0.2
+  max_tokens: 512
+
+# ── Embeddings (Sentence Transformers) ───────────────────────────────────────
+embeddings:
+  model: "all-MiniLM-L6-v2"
+  batch_size: 64
+  device: "cpu"               # Change to "cuda" if GPU is available
+
+# ── Classifier (SetFit) ───────────────────────────────────────────────────────
+classifier:
+  model_save_path: "models/setfit_classifier"
+  num_epochs: 3
+  num_iterations: 20          # Number of sentence pairs per class for contrastive training
+  confidence_threshold: 0.70  # Below this → flagged as potentially unknown topic
+
+# ── New Topic Detection ───────────────────────────────────────────────────────
+detector:
+  distance_threshold: 0.45    # Cosine distance from centroid to flag as unknown
+  min_cluster_size: 5         # HDBSCAN: minimum samples to form a new topic cluster
+  min_samples: 3              # HDBSCAN: core point threshold
+  umap_n_neighbors: 15
+  umap_min_dist: 0.1
+  umap_n_components: 2        # For visualization
+  umap_n_components_cluster: 5  # Higher dims for HDBSCAN (better structure)
+
+# ── Data Paths ────────────────────────────────────────────────────────────────
+data:
+  labeled_dataset: "data/complaints_labeled.csv"
+  new_topic_dataset: "data/complaints_with_new_topics.csv"
+  flagged_output: "data/flagged_complaints.csv"
+  updated_dataset: "data/complaints_updated.csv"
+
+# ── Known Topics (Phase 1) ────────────────────────────────────────────────────
+known_topics:
+  - mobile_app_login
+  - mobile_app_crash
+  - mobile_app_otp
+  - mobile_app_transfer
+  - credit_card_declined
+  - credit_card_billing
+  - debit_card_blocked
+  - debit_card_atm
+  - etc_card_toll
+  - etc_card_topup
+  - account_balance
+  - online_banking_access
+
+# ── New Topics (Phase 2 — will be detected, then added) ──────────────────────
+new_topics:
+  - biometric_auth_failure
+  - virtual_card_issue
+  - bnpl_payment_dispute
+  - qr_payment_failure
+  - crypto_wallet_error

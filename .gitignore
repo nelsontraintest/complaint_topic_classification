@@ -1,0 +1,16 @@
+models/
+data/classified_*.csv
+data/flagged_*.csv
+data/new_topics_*.json
+__pycache__/
+*.pyc
+*.pyo
+.env
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+.DS_Store
+.idea/
+*.log
