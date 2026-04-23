@@ -5,7 +5,7 @@ End-to-end daily complaint ingestion and classification pipeline.
 
 Workflow:
 1. Load new complaints from a CSV file
-2. Classify each complaint using the trained SetFit model
+2. Classify each complaint using the trained stable model
 3. Flag low-confidence predictions as potentially unknown topics
 4. Save results (classified + flagged) to output CSVs
 5. If enough unknown complaints have accumulated, run new topic detection
