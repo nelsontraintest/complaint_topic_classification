@@ -10,48 +10,39 @@ Or import predict_topic() in your own code:
     from src.classifier.predict import predict_topic, predict_batch
 """
 
-import json
-from pathlib import Path
-from typing import Optional
-
+import joblib
 import numpy as np
-import yaml
+import pandas as pd
+from pathlib import Path
+from sentence_transformers import SentenceTransformer
+from tqdm import tqdm
 
 ROOT = Path(__file__).resolve().parent.parent.parent
-with open(ROOT / "config.yaml") as f:
-    CONFIG = yaml.safe_load(f)
 
-MODEL_SAVE_PATH = ROOT / CONFIG["classifier"]["model_save_path"]
-CONFIDENCE_THRESHOLD = CONFIG["classifier"]["confidence_threshold"]
-
-# ─── Cached model ─────────────────────────────────────────────────────────────
+# Global variables to hold the model in memory
 _model = None
-_label_map: dict = {}
+_le = None
+_embedder = None
 
 
 def load_model():
-    """Load and cache the trained SetFit model."""
-    global _model, _label_map
-    if _model is not None:
-        return _model
+    """Loads the stable classifier and embedder into memory."""
+    global _model, _le, _embedder
 
-    if not MODEL_SAVE_PATH.exists():
-        raise FileNotFoundError(
-            f"No model found at {MODEL_SAVE_PATH}.\n"
-            "Please run src/classifier/train.py first."
-        )
+    model_dir = ROOT / "models" / "stable_classifier"
 
-    from setfit import SetFitModel
-    print(f"⚙️   Loading model from: {MODEL_SAVE_PATH}")
-    _model = SetFitModel.from_pretrained(str(MODEL_SAVE_PATH))
+    if not model_dir.exists():
+        raise FileNotFoundError(f"Model directory not found at {model_dir}. Please run training first.")
 
-    label_map_path = MODEL_SAVE_PATH / "label_map.json"
-    if label_map_path.exists():
-        with open(label_map_path) as f:
-            _label_map = json.load(f)
+    # Load the Logistic Regression head
+    _model = joblib.load(model_dir / "classifier_head.joblib")
+    # Load the label encoder (Topic names)
+    _le = joblib.load(model_dir / "label_encoder.joblib")
+    # Load the Sentence Transformer (The Brain)
+    _embedder = SentenceTransformer(str(model_dir / "embedding_model"))
 
-    print("✅  Model loaded.")
-    return _model
+    return _model, _le, _embedder
+
 
 
 def predict_topic(complaint: str) -> dict:
@@ -88,23 +79,50 @@ def predict_topic(complaint: str) -> dict:
     }
 
 
-def predict_batch(complaints: list[str], show_progress: bool = True) -> list[dict]:
+def predict_batch(texts, threshold=0.4, show_progress=True):
     """
-    Predict topics for a batch of complaints.
-
-    Returns:
-        List of prediction dicts (same format as predict_topic).
+    Predicts topics for a list of texts.
+    If the confidence is below the threshold, it marks it as 'unknown'.
     """
-    model = load_model()
-    id2label = _label_map.get("id2label", {})
+    global _model, _le, _embedder
+    if _model is None:
+        load_model()
 
-    from tqdm import tqdm
+    # 1. Convert texts to embeddings
+    if show_progress:
+        X = []
+        for t in tqdm(texts, desc="Embedding texts"):
+            X.append(_embedder.encode(t))
+        X = np.array(X)
+    else:
+        X = _embedder.encode(texts)
+
+    # 2. Get probability distributions
+    # predict_proba returns the probability for each class
+    probs = _model.predict_proba(X)
+
     results = []
-    iterator = tqdm(complaints, desc="Predicting") if show_progress else complaints
+    for i, prob_dist in enumerate(probs):
+        max_prob = np.max(prob_dist)
+        pred_idx = np.argmax(prob_dist)
+        topic_name = _le.inverse_transform([pred_idx])[0]
 
-    for complaint in iterator:
-        result = predict_topic(complaint)
-        results.append(result)
+        # 3. New Topic Detection Logic:
+        # If the highest probability is too low, we flag it as unknown
+        if max_prob < threshold:
+            results.append({
+                "complaint": texts[i],
+                "predicted_topic": None,
+                "confidence": float(max_prob),
+                "is_unknown": True
+            })
+        else:
+            results.append({
+                "complaint": texts[i],
+                "predicted_topic": topic_name,
+                "confidence": float(max_prob),
+                "is_unknown": False
+            })
 
     return results
 

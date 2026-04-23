@@ -1,0 +1,307 @@
+complaint_text,topic,label
+I need urgent help — credit card reward points were deducted from my account without my knowledge.,credit_card_billing,1
+"I'm contacting you because i topped up my ETC card RM 2,387.42 but the toll system still shows zero balance.",etc_card_topup,6
+"Hi, I'm writing to complain that i received a toll violation notice even though my ETC card was properly installed. I'm considering switching banks over this.",etc_card_toll,5
+I'm contacting you because i was fined for not paying toll because my ETC card wasn't recognized. Please help. This is affecting my daily life.,etc_card_toll,5
+I'm contacting you because my credit card statement shows a late fee even though I paid the minimum amount on time. I expect a response within 24 hours.,credit_card_billing,1
+I need urgent help — my debit card was blocked after one failed PIN attempt. This is very inconvenient. I expect a response within 24 hours.,debit_card_blocked,4
+I've been a loyal customer for years and now i tried to reload my ETC card at a top-up kiosk and it rejected my debit card. This is affecting my daily life.,etc_card_topup,6
+"I am extremely frustrated because i was charged RM 2,203.08 for a service I cancelled two months ago. Still appearing on my card. I'm considering switching banks over this.",credit_card_billing,1
+I need urgent help — my ETC card is not being detected at any toll booth since yesterday. I'm considering switching banks over this.,etc_card_toll,5
+This is unacceptable. i tried to top up my ETC card via the mobile app but the top-up failed and money was deducted. I'm considering switching banks over this.,etc_card_topup,6
+I need urgent help — debit card declined at ATM even though I entered the correct PIN and have sufficient balance.,debit_card_atm,3
+ETC card top-up via ATM was successful but the balance on the card wasn't updated.,etc_card_topup,6
+I'm contacting you because your bank's website certificate has expired and my browser won't let me access online banking.,online_banking_access,11
+I've been a loyal customer for years and now my debit card got stuck in the ATM slot. It won't come out and the screen has gone blank.,debit_card_atm,3
+I need urgent help — i updated the app last night and now I can't log in. The screen goes blank after I enter my credentials. I will escalate to the regulator if this is not resolved.,mobile_app_login,8
+My ETC card registration shows active but the toll system keeps rejecting it. Please resolve this immediately.,etc_card_toll,5
+"Hi, I'm writing to complain that the banking app goes completely black and then crashes when I try to access my loan details.",mobile_app_crash,7
+"Dear support team, my new debit card was blocked before I even activated it. I cannot make any purchases. I will escalate to the regulator if this is not resolved.",debit_card_blocked,4
+This is unacceptable. i inserted my debit card in your ATM and it got stuck. The machine ate my card.,debit_card_atm,3
+I need urgent help — i'm locked out of online banking after too many incorrect password attempts. Please reset my access.,online_banking_access,11
+My fixed deposit maturity amount was not credited to my account on the due date.,account_balance,0
+I've been a loyal customer for years and now i'm being charged an annual fee I never agreed to on my credit card account. I'm considering switching banks over this.,credit_card_billing,1
+I'm contacting you because i cannot use my debit card online. It's being declined for all internet purchases.,debit_card_blocked,4
+This is my third complaint about this issue. the app freezes for 5 minutes every time I try to view my credit card bill.,mobile_app_crash,7
+I need urgent help — i see a charge of RM 601.98 on my credit card statement that I did not authorize. I expect a response within 24 hours.,credit_card_billing,1
+I've been a loyal customer for years and now my debit card was blocked overnight. I need it for daily expenses and this is causing hardship. I expect a response within 24 hours.,debit_card_blocked,4
+ETC card auto top-up feature stopped working. My card balance is zero and I can't pay tolls. I will escalate to the regulator if this is not resolved.,etc_card_topup,6
+"Dear support team, app closes unexpectedly while I'm in the middle of making a payment. Very frustrating. I'm considering switching banks over this.",mobile_app_crash,7
+Credit card reward points were deducted from my account without my knowledge.,credit_card_billing,1
+"Dear support team, my debit card was blocked after one failed PIN attempt. This is very inconvenient. I'm considering switching banks over this.",debit_card_blocked,4
+I'm contacting you because i cannot log in to your mobile banking app. It keeps saying 'invalid credentials' even though my password is correct. This is affecting my daily life.,mobile_app_login,8
+This is my third complaint about this issue. app shows transfer was successful but my recipient's bank says no funds received.,mobile_app_transfer,10
+This is my third complaint about this issue. mobile banking app doubled my transfer — debited my account twice for a single transaction.,mobile_app_transfer,10
+My account shows a credit reversal that I never initiated. Balance is now lower than expected. Please resolve this immediately.,account_balance,0
+"Dear support team, your app has been crashing non-stop since the latest iOS update. Please release a patch. I'm considering switching banks over this.",mobile_app_crash,7
+Your bank's website certificate has expired and my browser won't let me access online banking. Please resolve this immediately.,online_banking_access,11
+"Dear support team, my credit card minimum payment due is incorrect. The calculation doesn't match my statement.",credit_card_billing,1
+I've been a loyal customer for years and now credit card declined for a recurring subscription payment I've been making for 2 years.,credit_card_declined,2
+"Hi, I'm writing to complain that my salary was credited but an unauthorized debit brought my balance to nearly zero. I will escalate to the regulator if this is not resolved.",account_balance,0
+I've been a loyal customer for years and now the banking app on my iPhone 15 won't let me sign in. I've tried resetting my password three times but the login still fails. Please resolve this immediately.,mobile_app_login,8
+"Hi, I'm writing to complain that the app asks for my password then immediately freezes. I have to force close it and start over. I'm considering switching banks over this.",mobile_app_login,8
+I am extremely frustrated because your app has been crashing non-stop since the latest iOS update. Please release a patch. I will escalate to the regulator if this is not resolved.,mobile_app_crash,7
+"I need urgent help — i tried to transfer RM 2,464.58 to my savings account via the mobile app but the transaction failed and the money is gone.",mobile_app_transfer,10
+This is unacceptable. i deposited a cheque 5 days ago but it hasn't appeared in my account balance.,account_balance,0
+"Hi, I'm writing to complain that the banking app on my OnePlus 12 won't let me sign in. I've tried resetting my password three times but the login still fails. I'm considering switching banks over this.",mobile_app_login,8
+"Dear support team, my credit card was declined when I tried to pay for my flight tickets. This is urgent. This is affecting my daily life.",credit_card_declined,2
+This is my third complaint about this issue. i updated the app last night and now I can't log in. The screen goes blank after I enter my credentials.,mobile_app_login,8
+Online banking login page is down. I've tried multiple browsers and devices.,online_banking_access,11
+"Dear support team, my OTP SMS is arriving 20 minutes late, causing the code to expire before I can use it.",mobile_app_otp,9
+"This is my third complaint about this issue. my savings account balance dropped by RM 1,900.64 overnight with no transaction showing on my statement. I'm considering switching banks over this.",account_balance,0
+I've been a loyal customer for years and now i was charged for an ATM withdrawal that never happened. The machine malfunctioned.,debit_card_atm,3
+I'm not getting 2FA codes via your banking app. My phone number is correct in your system.,mobile_app_otp,9
+I updated the app last night and now I can't log in. The screen goes blank after I enter my credentials.,mobile_app_login,8
+I'm contacting you because my fixed deposit maturity amount was not credited to my account on the due date. I will escalate to the regulator if this is not resolved.,account_balance,0
+Your bank's website certificate has expired and my browser won't let me access online banking.,online_banking_access,11
+"Hi, I'm writing to complain that i cannot use my debit card online. It's being declined for all internet purchases.",debit_card_blocked,4
+"Dear support team, the interbank transfer feature in your app has been broken for 3 days. I urgently need to move funds.",mobile_app_transfer,10
+The interbank transfer feature in your app has been broken for 3 days. I urgently need to move funds.,mobile_app_transfer,10
+"Dear support team, the transfer confirmation page in the app keeps refreshing without completing the transaction.",mobile_app_transfer,10
+I've been a loyal customer for years and now login button is not responding on the mobile banking app. I've tapped it dozens of times. Please resolve this immediately.,mobile_app_login,8
+"I am extremely frustrated because i tried to transfer RM 3,928.27 to my savings account via the mobile app but the transaction failed and the money is gone. I'm considering switching banks over this.",mobile_app_transfer,10
+I'm contacting you because i'm not receiving the OTP SMS needed to complete my transaction. I've been waiting 30 minutes. Please resolve this immediately.,mobile_app_otp,9
+I've been a loyal customer for years and now app shows transfer was successful but my recipient's bank says no funds received.,mobile_app_transfer,10
+I'm contacting you because my ETC card registration shows active but the toll system keeps rejecting it. Please resolve this immediately.,etc_card_toll,5
+I'm contacting you because i keep requesting OTP but it never arrives. I've checked my signal and SMS inbox. This is affecting my daily life.,mobile_app_otp,9
+I've been a loyal customer for years and now online top-up for my ETC card failed but the payment was debited from my bank account. I expect a response within 24 hours.,etc_card_topup,6
+I'm contacting you because eTC card transponder seems to have failed. I'm getting error beeps at every toll plaza.,etc_card_toll,5
+"Dear support team, my card was declined for a small transaction of RM 471.77. This makes no sense given my credit limit. I will escalate to the regulator if this is not resolved.",credit_card_declined,2
+"Dear support team, i'm getting 'Transaction declined' when trying to transfer funds, but my balance is sufficient. Please resolve this immediately.",mobile_app_transfer,10
+I need urgent help — transfer limit in the mobile app was changed without my consent. Now I cannot send large amounts. I'm considering switching banks over this.,mobile_app_transfer,10
+"Dear support team, your mobile banking app crashes every time I try to open it on my Samsung Galaxy S24. I'm considering switching banks over this.",mobile_app_crash,7
+This is my third complaint about this issue. eTC card transponder seems to have failed. I'm getting error beeps at every toll plaza.,etc_card_toll,5
+"Hi, I'm writing to complain that the fingerprint login on my banking app suddenly stopped working. I cannot get into my account at all. I'm considering switching banks over this.",mobile_app_login,8
+I am extremely frustrated because my debit card was blocked after one failed PIN attempt. This is very inconvenient. Please resolve this immediately.,debit_card_blocked,4
+"Hi, I'm writing to complain that mobile banking app is extremely slow. It takes over 2 minutes to load my account balance. Please resolve this immediately.",mobile_app_crash,7
+This is unacceptable. my ETC card top-up hasn't been credited even after 68 hours. Transaction reference: TXN-PKIB-492122. Please resolve this immediately.,etc_card_topup,6
+App shows transfer was successful but my recipient's bank says no funds received.,mobile_app_transfer,10
+This is unacceptable. credit card declined for a recurring subscription payment I've been making for 2 years.,credit_card_declined,2
+This is my third complaint about this issue. my ETC card top-up hasn't been credited even after 63 hours. Transaction reference: TXN-DRKS-398045.,etc_card_topup,6
+This is unacceptable. my credit card bill shows a foreign transaction fee for a purchase I made domestically. Please resolve this immediately.,credit_card_billing,1
+This is unacceptable. my account statement shows a different balance than what the ATM and app display.,account_balance,0
+I am extremely frustrated because eTC card transponder seems to have failed. I'm getting error beeps at every toll plaza.,etc_card_toll,5
+"Dear support team, online banking shows my old address and I cannot update my profile. The save button is broken. I'm considering switching banks over this.",online_banking_access,11
+"Hi, I'm writing to complain that my credit card interest rate was changed without prior notification. My bill is much higher than expected.",credit_card_billing,1
+I'm contacting you because the ATM near Subang is broken and captured my debit card. Please retrieve it urgently. I will escalate to the regulator if this is not resolved.,debit_card_atm,3
+"Hi, I'm writing to complain that your bank's website certificate has expired and my browser won't let me access online banking.",online_banking_access,11
+"Hi, I'm writing to complain that online banking dashboard shows all zeros — my accounts and transactions are not displaying. I will escalate to the regulator if this is not resolved.",online_banking_access,11
+I need urgent help — i keep requesting OTP but it never arrives. I've checked my signal and SMS inbox. I'm considering switching banks over this.,mobile_app_otp,9
+I am extremely frustrated because i'm locked out of online banking after too many incorrect password attempts. Please reset my access. I expect a response within 24 hours.,online_banking_access,11
+"Hi, I'm writing to complain that i was fined for not paying toll because my ETC card wasn't recognized. Please help. I expect a response within 24 hours.",etc_card_toll,5
+The FirstCity Bank app freezes whenever I navigate to the transaction history page. I have to restart my phone. I expect a response within 24 hours.,mobile_app_crash,7
+I need urgent help — the transfer confirmation page in the app keeps refreshing without completing the transaction. This is affecting my daily life.,mobile_app_transfer,10
+"Hi, I'm writing to complain that banking app keeps crashing after I tap on 'View Statement'. Other features work fine. Please resolve this immediately.",mobile_app_crash,7
+I need urgent help — my account statement shows a different balance than what the ATM and app display. I'm considering switching banks over this.,account_balance,0
+This is unacceptable. your mobile banking app crashes every time I try to open it on my iPhone 14 Pro. I will escalate to the regulator if this is not resolved.,mobile_app_crash,7
+"Dear support team, i keep requesting OTP but it never arrives. I've checked my signal and SMS inbox. I expect a response within 24 hours.",mobile_app_otp,9
+"I've been a loyal customer for years and now i drove through the toll lane and the ETC system didn't detect my card, causing a fine.",etc_card_toll,5
+"Hi, I'm writing to complain that my new debit card was blocked before I even activated it. I cannot make any purchases. Please resolve this immediately.",debit_card_blocked,4
+"Dear support team, my credit card statement shows a late fee even though I paid the minimum amount on time. Please resolve this immediately.",credit_card_billing,1
+I'm contacting you because i attempted an urgent bank transfer but the app gave an error and I cannot see if it went through. I'm considering switching banks over this.,mobile_app_transfer,10
+"Hi, I'm writing to complain that i was fined for not paying toll because my ETC card wasn't recognized. Please help.",etc_card_toll,5
+App shows transfer was successful but my recipient's bank says no funds received.,mobile_app_transfer,10
+I need urgent help — the toll system said my ETC card was invalid even though it's registered and topped up.,etc_card_toll,5
+This is my third complaint about this issue. my credit card ending in 6789 was declined at a AEON Mall store even though I have available credit. This is affecting my daily life.,credit_card_declined,2
+I've been a loyal customer for years and now i'm not receiving the OTP SMS needed to complete my transaction. I've been waiting 30 minutes. I expect a response within 24 hours.,mobile_app_otp,9
+I've been a loyal customer for years and now i successfully log into online banking but all menu options are greyed out and unclickable. I'm considering switching banks over this.,online_banking_access,11
+I'm contacting you because the fingerprint login on my banking app suddenly stopped working. I cannot get into my account at all.,mobile_app_login,8
+I need urgent help — i received a toll violation notice even though my ETC card was properly installed. I will escalate to the regulator if this is not resolved.,etc_card_toll,5
+"Dear support team, i transferred money in but my account balance hasn't updated. The funds seem to have disappeared.",account_balance,0
+I need urgent help — i'm being charged an annual fee I never agreed to on my credit card account. This is affecting my daily life.,credit_card_billing,1
+I tried to use my credit card at Shell but it was declined without any reason. I expect a response within 24 hours.,credit_card_declined,2
+I am extremely frustrated because app is stuck on the loading screen after I enter my login details. This has happened for two days straight. I'm considering switching banks over this.,mobile_app_login,8
+"Hi, I'm writing to complain that my credit card was declined when I tried to pay for my flight tickets. This is urgent.",credit_card_declined,2
+I am extremely frustrated because my ETC card registration shows active but the toll system keeps rejecting it.,etc_card_toll,5
+This is unacceptable. the toll system said my ETC card was invalid even though it's registered and topped up. This is affecting my daily life.,etc_card_toll,5
+This is my third complaint about this issue. online banking session times out in 30 seconds even when I'm actively using it. I will escalate to the regulator if this is not resolved.,online_banking_access,11
+"Dear support team, eTC card works at some toll booths but not others. Inconsistent behavior is causing issues. I'm considering switching banks over this.",etc_card_toll,5
+The banking app goes completely black and then crashes when I try to access my loan details. Please resolve this immediately.,mobile_app_crash,7
+This is my third complaint about this issue. i cannot access your internet banking portal. The website keeps showing a '503 Service Unavailable' error. This is affecting my daily life.,online_banking_access,11
+"Dear support team, i tried to transfer RM 3,871.79 to my savings account via the mobile app but the transaction failed and the money is gone. Please resolve this immediately.",mobile_app_transfer,10
+"Dear support team, banking app keeps crashing after I tap on 'View Statement'. Other features work fine. I will escalate to the regulator if this is not resolved.",mobile_app_crash,7
+This is my third complaint about this issue. the transfer confirmation page in the app keeps refreshing without completing the transaction. I will escalate to the regulator if this is not resolved.,mobile_app_transfer,10
+The online banking portal redirects me to an error page every time I try to log in.,online_banking_access,11
+"Hi, I'm writing to complain that my debit card works at ATMs but is declined at POS terminals in shops.",debit_card_blocked,4
+I've been a loyal customer for years and now my credit card interest rate was changed without prior notification. My bill is much higher than expected. I'm considering switching banks over this.,credit_card_billing,1
+"Hi, I'm writing to complain that oTP verification keeps failing. The code you send doesn't match what the app expects.",mobile_app_otp,9
+I am extremely frustrated because your app has been crashing non-stop since the latest iOS update. Please release a patch. This is affecting my daily life.,mobile_app_crash,7
+I'm contacting you because i tried to top up my ETC card via the mobile app but the top-up failed and money was deducted.,etc_card_topup,6
+I am extremely frustrated because my debit card got stuck in the ATM slot. It won't come out and the screen has gone blank. I expect a response within 24 hours.,debit_card_atm,3
+I am extremely frustrated because i cannot log in to your mobile banking app. It keeps saying 'invalid credentials' even though my password is correct.,mobile_app_login,8
+I've been a loyal customer for years and now debit card suddenly stopped working. I called customer service but they couldn't explain why. Please resolve this immediately.,debit_card_blocked,4
+"I'm embarrassed — my FirstCity Bank credit card was declined in front of everyone at the restaurant, even with sufficient credit limit. I'm considering switching banks over this.",credit_card_declined,2
+I am extremely frustrated because my fixed deposit maturity amount was not credited to my account on the due date. I'm considering switching banks over this.,account_balance,0
+My debit card was suddenly blocked. I cannot use it for any transactions.,debit_card_blocked,4
+I've been a loyal customer for years and now i keep requesting OTP but it never arrives. I've checked my signal and SMS inbox. Please resolve this immediately.,mobile_app_otp,9
+This is my third complaint about this issue. i inserted my debit card in your ATM and it got stuck. The machine ate my card. I expect a response within 24 hours.,debit_card_atm,3
+Online banking session times out in 30 seconds even when I'm actively using it. I expect a response within 24 hours.,online_banking_access,11
+I need urgent help — eTC card reader at the Bangsar toll failed to scan my card. The barrier didn't open.,etc_card_toll,5
+I need urgent help — i tried to use my PrimeBank debit card and got a 'Card restricted' message. I haven't done anything wrong. I expect a response within 24 hours.,debit_card_blocked,4
+"This is unacceptable. every time I try to log into the MegaBank app, it shows an error code 4048 and kicks me out. This is affecting my daily life.",mobile_app_login,8
+This is unacceptable. i'm unable to make overseas transfers via the app. It keeps timing out at the final step. Please resolve this immediately.,mobile_app_transfer,10
+"I need urgent help — every time I try to log into the FirstCity Bank app, it shows an error code 7274 and kicks me out.",mobile_app_login,8
+I need urgent help — i tried to reload my ETC card at a top-up kiosk and it rejected my debit card.,etc_card_topup,6
+I tried to use my MegaBank debit card and got a 'Card restricted' message. I haven't done anything wrong. This is affecting my daily life.,debit_card_blocked,4
+I'm contacting you because i traveled abroad and my debit card was blocked without warning. I have no access to cash.,debit_card_blocked,4
+I am extremely frustrated because i attempted an urgent bank transfer but the app gave an error and I cannot see if it went through. I'm considering switching banks over this.,mobile_app_transfer,10
+I need urgent help — internet banking is not loading on my computer. I need to transfer funds urgently. I will escalate to the regulator if this is not resolved.,online_banking_access,11
+I am extremely frustrated because my debit card was blocked overnight. I need it for daily expenses and this is causing hardship. I'm considering switching banks over this.,debit_card_blocked,4
+This is unacceptable. i was fined for not paying toll because my ETC card wasn't recognized. Please help.,etc_card_toll,5
+This is unacceptable. my credit card keeps getting declined even though I paid off the full balance last week. I expect a response within 24 hours.,credit_card_declined,2
+This is my third complaint about this issue. i tried to use my credit card at Lazada but it was declined without any reason. I will escalate to the regulator if this is not resolved.,credit_card_declined,2
+This is my third complaint about this issue. i've requested OTP 10 times in the last hour and haven't received a single one.,mobile_app_otp,9
+"Dear support team, the app asks for my password then immediately freezes. I have to force close it and start over.",mobile_app_login,8
+I'm contacting you because the toll system said my ETC card was invalid even though it's registered and topped up. Please resolve this immediately.,etc_card_toll,5
+I've been a loyal customer for years and now my credit card statement shows a late fee even though I paid the minimum amount on time.,credit_card_billing,1
+I'm contacting you because top-up transaction for my ETC card is showing 'processing' for 48 hours with no update.,etc_card_topup,6
+"Dear support team, i've noticed regular small debits from my account that I don't recognize. Possible fraud. Please resolve this immediately.",account_balance,0
+"Hi, I'm writing to complain that my salary was credited but an unauthorized debit brought my balance to nearly zero.",account_balance,0
+This is unacceptable. i'm experiencing constant app crashes on my Samsung Galaxy S24. The app is unusable right now.,mobile_app_crash,7
+"Hi, I'm writing to complain that the app freezes for 5 minutes every time I try to view my credit card bill.",mobile_app_crash,7
+ETC card top-up via ATM was successful but the balance on the card wasn't updated. I will escalate to the regulator if this is not resolved.,etc_card_topup,6
+"Dear support team, my new debit card was blocked before I even activated it. I cannot make any purchases.",debit_card_blocked,4
+I tried to reload my ETC card at a top-up kiosk and it rejected my debit card. I expect a response within 24 hours.,etc_card_topup,6
+I'm not receiving the OTP SMS needed to complete my transaction. I've been waiting 30 minutes. I expect a response within 24 hours.,mobile_app_otp,9
+"Dear support team, my salary was credited but an unauthorized debit brought my balance to nearly zero. Please resolve this immediately.",account_balance,0
+My debit card got stuck in the ATM slot. It won't come out and the screen has gone blank. I will escalate to the regulator if this is not resolved.,debit_card_atm,3
+This is unacceptable. i'm unable to reset my online banking password. The 'Forgot Password' link doesn't work. This is affecting my daily life.,online_banking_access,11
+My credit card was declined when I tried to pay for my flight tickets. This is urgent.,credit_card_declined,2
+This is unacceptable. i successfully log into online banking but all menu options are greyed out and unclickable.,online_banking_access,11
+I'm contacting you because eTC card auto top-up feature stopped working. My card balance is zero and I can't pay tolls. Please resolve this immediately.,etc_card_topup,6
+"I'm contacting you because every time I try to log into the PrimeBank app, it shows an error code 2604 and kicks me out. Please resolve this immediately.",mobile_app_login,8
+I've been a loyal customer for years and now cannot sign into mobile banking — it keeps asking me to re-register my device even though I've done it multiple times.,mobile_app_login,8
+Credit card reward points were deducted from my account without my knowledge.,credit_card_billing,1
+My credit card transaction was declined at a supermarket. I had more than enough credit available.,credit_card_declined,2
+I've been a loyal customer for years and now i tried to top up my ETC card via the mobile app but the top-up failed and money was deducted.,etc_card_topup,6
+The toll plaza scanner rejected my ETC card three times. I had to pay cash as a result. I will escalate to the regulator if this is not resolved.,etc_card_toll,5
+I've been a loyal customer for years and now my credit card interest rate was changed without prior notification. My bill is much higher than expected. I'm considering switching banks over this.,credit_card_billing,1
+"Dear support team, i'm experiencing constant app crashes on my iPhone 14 Pro. The app is unusable right now.",mobile_app_crash,7
+I'm contacting you because sMS OTP is going to my old phone number even after I updated it in the app. Please resolve this immediately.,mobile_app_otp,9
+This is my third complaint about this issue. i've requested OTP 10 times in the last hour and haven't received a single one.,mobile_app_otp,9
+I'm contacting you because my debit card got stuck in the ATM slot. It won't come out and the screen has gone blank. Please resolve this immediately.,debit_card_atm,3
+This is unacceptable. app shows transfer was successful but my recipient's bank says no funds received.,mobile_app_transfer,10
+ATM dispensed short of the requested amount but debited my account for the full amount. I expect a response within 24 hours.,debit_card_atm,3
+I need urgent help — my credit card bill shows a foreign transaction fee for a purchase I made domestically.,credit_card_billing,1
+"This is unacceptable. eTC card auto reload failed multiple times this month, leaving me unable to use the highway.",etc_card_topup,6
+"I'm contacting you because i'm embarrassed — my PrimeBank credit card was declined in front of everyone at the restaurant, even with sufficient credit limit. I'm considering switching banks over this.",credit_card_declined,2
+I've been a loyal customer for years and now aTM dispensed short of the requested amount but debited my account for the full amount.,debit_card_atm,3
+This is unacceptable. i'm unable to reset my online banking password. The 'Forgot Password' link doesn't work. I expect a response within 24 hours.,online_banking_access,11
+"Hi, I'm writing to complain that mobile app is unresponsive after I switch between accounts. I have to reinstall it every time.",mobile_app_crash,7
+This is my third complaint about this issue. i traveled abroad and my debit card was blocked without warning. I have no access to cash. I will escalate to the regulator if this is not resolved.,debit_card_blocked,4
+I've been a loyal customer for years and now oTP verification keeps failing. The code you send doesn't match what the app expects.,mobile_app_otp,9
+This is my third complaint about this issue. oTP is not being sent to my registered mobile number +1-736-672-7800. I cannot complete my login.,mobile_app_otp,9
+This is my third complaint about this issue. i tried to reload my ETC card at a top-up kiosk and it rejected my debit card. I will escalate to the regulator if this is not resolved.,etc_card_topup,6
+I've been a loyal customer for years and now the ATM near Petaling Jaya is broken and captured my debit card. Please retrieve it urgently. Please resolve this immediately.,debit_card_atm,3
+This is unacceptable. my credit card statement shows a late fee even though I paid the minimum amount on time. This is affecting my daily life.,credit_card_billing,1
+My debit card works at ATMs but is declined at POS terminals in shops. Please resolve this immediately.,debit_card_blocked,4
+Your internet banking website is extremely slow and times out before I can complete any transaction. This is affecting my daily life.,online_banking_access,11
+Your bank's website certificate has expired and my browser won't let me access online banking. Please resolve this immediately.,online_banking_access,11
+My new debit card was blocked before I even activated it. I cannot make any purchases. Please resolve this immediately.,debit_card_blocked,4
+This is unacceptable. online banking dashboard shows all zeros — my accounts and transactions are not displaying. I'm considering switching banks over this.,online_banking_access,11
+"This is my third complaint about this issue. i see a charge of RM 3,329.12 on my credit card statement that I did not authorize. Please resolve this immediately.",credit_card_billing,1
+I am extremely frustrated because my debit card was suddenly blocked. I cannot use it for any transactions. I expect a response within 24 hours.,debit_card_blocked,4
+This is my third complaint about this issue. the authentication code you sent is 6 digits but the app field only accepts 4 digits.,mobile_app_otp,9
+This is unacceptable. your bank's website certificate has expired and my browser won't let me access online banking. Please resolve this immediately.,online_banking_access,11
+I've been a loyal customer for years and now i keep requesting OTP but it never arrives. I've checked my signal and SMS inbox.,mobile_app_otp,9
+ETC card top-up via ATM was successful but the balance on the card wasn't updated. I'm considering switching banks over this.,etc_card_topup,6
+My debit card was blocked after one failed PIN attempt. This is very inconvenient.,debit_card_blocked,4
+"Dear support team, the transfer confirmation page in the app keeps refreshing without completing the transaction. I'm considering switching banks over this.",mobile_app_transfer,10
+I am extremely frustrated because i couldn't pay my hotel bill because your credit card was declined. This caused serious embarrassment. This is affecting my daily life.,credit_card_declined,2
+My account shows a credit reversal that I never initiated. Balance is now lower than expected. I'm considering switching banks over this.,account_balance,0
+"This is my third complaint about this issue. my savings account balance dropped by RM 2,332.18 overnight with no transaction showing on my statement. This is affecting my daily life.",account_balance,0
+I'm contacting you because my debit card got stuck in the ATM slot. It won't come out and the screen has gone blank. I will escalate to the regulator if this is not resolved.,debit_card_atm,3
+I've been a loyal customer for years and now debit card declined at ATM even though I entered the correct PIN and have sufficient balance. I expect a response within 24 hours.,debit_card_atm,3
+I'm contacting you because the toll system said my ETC card was invalid even though it's registered and topped up.,etc_card_toll,5
+I tried to use my credit card at Starbucks but it was declined without any reason. I expect a response within 24 hours.,credit_card_declined,2
+OTP verification keeps failing. The code you send doesn't match what the app expects.,mobile_app_otp,9
+"Hi, I'm writing to complain that online banking dashboard shows all zeros — my accounts and transactions are not displaying.",online_banking_access,11
+I've been a loyal customer for years and now the app freezes for 5 minutes every time I try to view my credit card bill.,mobile_app_crash,7
+"I need urgent help — my card was declined for a small transaction of RM 4,135.29. This makes no sense given my credit limit. I'm considering switching banks over this.",credit_card_declined,2
+Your mobile banking app crashes every time I try to open it on my OnePlus 12.,mobile_app_crash,7
+This is my third complaint about this issue. credit card reward points were deducted from my account without my knowledge. I will escalate to the regulator if this is not resolved.,credit_card_billing,1
+"Dear support team, aTM dispensed short of the requested amount but debited my account for the full amount. I'm considering switching banks over this.",debit_card_atm,3
+I've been a loyal customer for years and now mobile app transfer failed midway. The money left my account but the recipient didn't receive it. Please resolve this immediately.,mobile_app_transfer,10
+This is my third complaint about this issue. my account statement shows a different balance than what the ATM and app display. This is affecting my daily life.,account_balance,0
+"Dear support team, top-up transaction for my ETC card is showing 'processing' for 48 hours with no update.",etc_card_topup,6
+I've been a loyal customer for years and now credit card declined for a recurring subscription payment I've been making for 2 years.,credit_card_declined,2
+I've been waiting 3 days for an ETC top-up to reflect on my card. Customer service is not helping. I'm considering switching banks over this.,etc_card_topup,6
+I am extremely frustrated because aTM withdrew money from my account but dispensed the wrong amount. I expect a response within 24 hours.,debit_card_atm,3
+"Dear support team, i transferred money in but my account balance hasn't updated. The funds seem to have disappeared. I'm considering switching banks over this.",account_balance,0
+"Hi, I'm writing to complain that my credit card interest rate was changed without prior notification. My bill is much higher than expected.",credit_card_billing,1
+This is unacceptable. debit card declined at ATM even though I entered the correct PIN and have sufficient balance.,debit_card_atm,3
+"Dear support team, credit card is being declined for international online purchases. Please check if international transactions are blocked.",credit_card_declined,2
+This is unacceptable. the banking app on my Pixel 8 won't let me sign in. I've tried resetting my password three times but the login still fails. I will escalate to the regulator if this is not resolved.,mobile_app_login,8
+"Dear support team, transfer limit in the mobile app was changed without my consent. Now I cannot send large amounts.",mobile_app_transfer,10
+This is my third complaint about this issue. i tried to use my CitiCore Bank debit card and got a 'Card restricted' message. I haven't done anything wrong. I will escalate to the regulator if this is not resolved.,debit_card_blocked,4
+I'm not getting 2FA codes via your banking app. My phone number is correct in your system. Please resolve this immediately.,mobile_app_otp,9
+I am extremely frustrated because the authentication code you sent is 6 digits but the app field only accepts 4 digits. Please resolve this immediately.,mobile_app_otp,9
+I can't find the ETC card top-up option in the banking app anymore. It seems to have disappeared. I will escalate to the regulator if this is not resolved.,etc_card_topup,6
+"I've been a loyal customer for years and now my savings account balance dropped by RM 4,318.75 overnight with no transaction showing on my statement.",account_balance,0
+I'm contacting you because aTM withdrew money from my account but dispensed the wrong amount.,debit_card_atm,3
+I'm contacting you because my salary was credited but an unauthorized debit brought my balance to nearly zero. This is affecting my daily life.,account_balance,0
+I've been a loyal customer for years and now i've requested OTP 10 times in the last hour and haven't received a single one. This is affecting my daily life.,mobile_app_otp,9
+I am extremely frustrated because my account shows a credit reversal that I never initiated. Balance is now lower than expected. I expect a response within 24 hours.,account_balance,0
+I need urgent help — i cannot log in to your mobile banking app. It keeps saying 'invalid credentials' even though my password is correct. I'm considering switching banks over this.,mobile_app_login,8
+"I've been a loyal customer for years and now every time I try to log into the NexBank app, it shows an error code 1434 and kicks me out. I expect a response within 24 hours.",mobile_app_login,8
+"Hi, I'm writing to complain that eTC card works at some toll booths but not others. Inconsistent behavior is causing issues.",etc_card_toll,5
+I attempted an urgent bank transfer but the app gave an error and I cannot see if it went through. Please resolve this immediately.,mobile_app_transfer,10
+This is my third complaint about this issue. app crashes when I try to upload a photo of my check for mobile deposit.,mobile_app_crash,7
+I am extremely frustrated because aTM dispensed short of the requested amount but debited my account for the full amount. Please resolve this immediately.,debit_card_atm,3
+This is my third complaint about this issue. app is stuck on the loading screen after I enter my login details. This has happened for two days straight. This is affecting my daily life.,mobile_app_login,8
+I'm contacting you because mobile banking app is extremely slow. It takes over 2 minutes to load my account balance. Please resolve this immediately.,mobile_app_crash,7
+ATM swallowed my debit card and didn't dispense the RM 172.13 I requested.,debit_card_atm,3
+This is unacceptable. my credit card ending in 9070 was declined at a Shopee store even though I have available credit.,credit_card_declined,2
+I'm contacting you because i see charges on my credit card from a date when the card was in my wallet and unused. I expect a response within 24 hours.,credit_card_billing,1
+The toll system said my ETC card was invalid even though it's registered and topped up. I'm considering switching banks over this.,etc_card_toll,5
+"Hi, I'm writing to complain that app crashes when I try to upload a photo of my check for mobile deposit. I expect a response within 24 hours.",mobile_app_crash,7
+This is my third complaint about this issue. my credit card bill shows a foreign transaction fee for a purchase I made domestically. This is affecting my daily life.,credit_card_billing,1
+I've been a loyal customer for years and now my debit card was blocked after one failed PIN attempt. This is very inconvenient.,debit_card_blocked,4
+This is my third complaint about this issue. my credit card transaction was declined at a supermarket. I had more than enough credit available. Please resolve this immediately.,credit_card_declined,2
+"Dear support team, the app asks for my password then immediately freezes. I have to force close it and start over. I expect a response within 24 hours.",mobile_app_login,8
+I deposited a cheque 5 days ago but it hasn't appeared in my account balance. I will escalate to the regulator if this is not resolved.,account_balance,0
+"Hi, I'm writing to complain that i cannot access your internet banking portal. The website keeps showing a '503 Service Unavailable' error.",online_banking_access,11
+This is my third complaint about this issue. top-up transaction for my ETC card is showing 'processing' for 48 hours with no update.,etc_card_topup,6
+"I need urgent help — i'm embarrassed — my TrustBank credit card was declined in front of everyone at the restaurant, even with sufficient credit limit. Please resolve this immediately.",credit_card_declined,2
+"Hi, I'm writing to complain that oTP verification keeps failing. The code you send doesn't match what the app expects. Please resolve this immediately.",mobile_app_otp,9
+I've been a loyal customer for years and now i was charged for an ATM withdrawal that never happened. The machine malfunctioned. I expect a response within 24 hours.,debit_card_atm,3
+This is my third complaint about this issue. my salary was credited but an unauthorized debit brought my balance to nearly zero. Please resolve this immediately.,account_balance,0
+The one-time password your app sends has already expired by the time I receive it on my phone. I expect a response within 24 hours.,mobile_app_otp,9
+I keep requesting OTP but it never arrives. I've checked my signal and SMS inbox.,mobile_app_otp,9
+This is my third complaint about this issue. i've been waiting 3 days for an ETC top-up to reflect on my card. Customer service is not helping.,etc_card_topup,6
+ETC card top-up via ATM was successful but the balance on the card wasn't updated.,etc_card_topup,6
+I've been a loyal customer for years and now credit card reward points were deducted from my account without my knowledge. Please resolve this immediately.,credit_card_billing,1
+"I'm contacting you because my card was declined for a small transaction of RM 1,666.56. This makes no sense given my credit limit.",credit_card_declined,2
+This is unacceptable. mobile app is unresponsive after I switch between accounts. I have to reinstall it every time. I expect a response within 24 hours.,mobile_app_crash,7
+I am extremely frustrated because the app asks for my password then immediately freezes. I have to force close it and start over.,mobile_app_login,8
+I am extremely frustrated because aTM gave me an error message and kept my card. Transaction reference: TXN-OSLE-276513. I expect a response within 24 hours.,debit_card_atm,3
+I'm contacting you because my card was declined for a small transaction of RM 215.01. This makes no sense given my credit limit. Please resolve this immediately.,credit_card_declined,2
+Top-up transaction for my ETC card is showing 'processing' for 48 hours with no update. I will escalate to the regulator if this is not resolved.,etc_card_topup,6
+My credit card statement shows a late fee even though I paid the minimum amount on time.,credit_card_billing,1
+"This is unacceptable. my card was declined for a small transaction of RM 1,372.58. This makes no sense given my credit limit.",credit_card_declined,2
+"Hi, I'm writing to complain that your mobile banking app crashes every time I try to open it on my Huawei P60. Please resolve this immediately.",mobile_app_crash,7
+I've been a loyal customer for years and now transfer limit in the mobile app was changed without my consent. Now I cannot send large amounts.,mobile_app_transfer,10
+I transferred money in but my account balance hasn't updated. The funds seem to have disappeared. Please resolve this immediately.,account_balance,0
+I was charged RM 510.90 for a service I cancelled two months ago. Still appearing on my card. I will escalate to the regulator if this is not resolved.,credit_card_billing,1
+I need urgent help — the banking app goes completely black and then crashes when I try to access my loan details.,mobile_app_crash,7
+Online banking dashboard shows all zeros — my accounts and transactions are not displaying.,online_banking_access,11
+I keep getting 'Card declined' error when using my credit card for contactless payments. I'm considering switching banks over this.,credit_card_declined,2
+My account statement shows a different balance than what the ATM and app display.,account_balance,0
+I need urgent help — sMS OTP is going to my old phone number even after I updated it in the app.,mobile_app_otp,9
+This is unacceptable. app shows transfer was successful but my recipient's bank says no funds received. This is affecting my daily life.,mobile_app_transfer,10
+There is an unknown charge from a merchant I've never heard of on my credit card bill.,credit_card_billing,1
+"Hi, I'm writing to complain that i cannot access your internet banking portal. The website keeps showing a '503 Service Unavailable' error. This is affecting my daily life.",online_banking_access,11
+This is unacceptable. eTC card reader at the Bangsar toll failed to scan my card. The barrier didn't open.,etc_card_toll,5
+I am extremely frustrated because my debit card got stuck in the ATM slot. It won't come out and the screen has gone blank.,debit_card_atm,3
+The toll system said my ETC card was invalid even though it's registered and topped up. I'm considering switching banks over this.,etc_card_toll,5
+My debit card was suddenly blocked. I cannot use it for any transactions. I expect a response within 24 hours.,debit_card_blocked,4
+I am extremely frustrated because my debit card was suddenly blocked. I cannot use it for any transactions.,debit_card_blocked,4
+I need urgent help — i was charged for an ATM withdrawal that never happened. The machine malfunctioned. This is affecting my daily life.,debit_card_atm,3
+"I am extremely frustrated because i can see my pending transactions but they never cleared, and my available balance is wrong. I will escalate to the regulator if this is not resolved.",account_balance,0
+This is my third complaint about this issue. i'm getting 'Session expired' error right after I log in. Cannot stay logged into the app. I will escalate to the regulator if this is not resolved.,mobile_app_login,8
+This is my third complaint about this issue. my debit card was suddenly blocked. I cannot use it for any transactions.,debit_card_blocked,4
+ATM gave me an error message and kept my card. Transaction reference: TXN-JBII-643585.,debit_card_atm,3
+I need urgent help — app crashes when I try to upload a photo of my check for mobile deposit. I will escalate to the regulator if this is not resolved.,mobile_app_crash,7
+I am extremely frustrated because cannot sign into mobile banking — it keeps asking me to re-register my device even though I've done it multiple times. I will escalate to the regulator if this is not resolved.,mobile_app_login,8
+"I'm contacting you because aTM swallowed my debit card and didn't dispense the RM 1,869.45 I requested. This is affecting my daily life.",debit_card_atm,3
+Online top-up for my ETC card failed but the payment was debited from my bank account.,etc_card_topup,6

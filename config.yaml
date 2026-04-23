@@ -4,7 +4,7 @@
 
 # ── Local LLM (Ollama / Gemma 4) ─────────────────────────────────────────────
 llm:
-  model: "gemma3:4b"          # Ollama model name; run: ollama pull gemma3:4b
+  model: "gemma4:latest"          # Ollama model name; run: ollama pull gemma3:4b / gemma4:latest
   base_url: "http://localhost:11434"
   temperature: 0.2
   max_tokens: 512
@@ -17,7 +17,7 @@ embeddings:
 
 # ── Classifier (SetFit) ───────────────────────────────────────────────────────
 classifier:
-  model_save_path: "models/setfit_classifier"
+  model_save_path: "models/stable_classifier"
   num_epochs: 3
   num_iterations: 20          # Number of sentence pairs per class for contrastive training
   confidence_threshold: 0.70  # Below this → flagged as potentially unknown topic

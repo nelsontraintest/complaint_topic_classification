@@ -1,0 +1,505 @@
+complaint_text,topic,is_new_topic
+I've been a loyal customer for years and now credit card reward points were deducted from my account without my knowledge. Please resolve this immediately.,credit_card_billing,False
+Biometric login on your app is completely broken on my Pixel 8. Face ID was working perfectly before. Please look into this immediately.,biometric_auth_failure,True
+I am extremely frustrated because my debit card got stuck in the ATM slot. It won't come out and the screen has gone blank. I will escalate to the regulator if this is not resolved.,debit_card_atm,False
+I tried to use my CitiCore Bank debit card and got a 'Card restricted' message. I haven't done anything wrong. Please resolve this immediately.,debit_card_blocked,False
+My Bitcoin purchase through the bank app was deducted from my account but no crypto was received. Please look into this immediately.,crypto_wallet_error,True
+Your internet banking website is extremely slow and times out before I can complete any transaction. This is affecting my daily life.,online_banking_access,False
+I need help because my bank's buy-now-pay-later shows a due amount that doesn't match my purchase total. Please look into this immediately.,bnpl_payment_dispute,True
+I need help because my virtual credit card limit doesn't match what I set when I created it. Please look into this immediately.,virtual_card_issue,True
+Urgent complaint: i tried to buy Ethereum through your app and got 'Transaction rejected' with no reason given.,crypto_wallet_error,True
+The bank blocked my debit card without sending me a notification or reason. This is affecting my daily life.,debit_card_blocked,False
+I am extremely frustrated because my new debit card was blocked before I even activated it. I cannot make any purchases. I will escalate to the regulator if this is not resolved.,debit_card_blocked,False
+Urgent complaint: i signed up for buy-now-pay-later through your bank but my installment amount is incorrect.,bnpl_payment_dispute,True
+This is unacceptable. my ETC card was not recognized at the toll booth on the highway today.,etc_card_toll,False
+I need help because i scanned a QR code to pay at Grab but the payment failed and money was deducted. I'm very disappointed.,qr_payment_failure,True
+I want to report a problem: your app's face recognition feature is not working in low light. I have to type my password every time. Please look into this immediately.,biometric_auth_failure,True
+I am extremely frustrated because my fixed deposit maturity amount was not credited to my account on the due date. I'm considering switching banks over this.,account_balance,False
+I registered my fingerprint for banking authentication but it no longer works. The app rejects my fingerprint every time.,biometric_auth_failure,True
+I'm contacting you because i'm experiencing constant app crashes on my Pixel 8. The app is unusable right now. I'm considering switching banks over this.,mobile_app_crash,False
+I can't use fingerprint authentication to approve payments anymore. The sensor keeps timing out. This is urgently needed.,biometric_auth_failure,True
+I'm contacting you because i was fined for not paying toll because my ETC card wasn't recognized. Please help. This is affecting my daily life.,etc_card_toll,False
+ETC card top-up via ATM was successful but the balance on the card wasn't updated.,etc_card_topup,False
+I was billed twice for the same transaction at Shell on my credit card. This is affecting my daily life.,credit_card_billing,False
+Mobile banking app is extremely slow. It takes over 2 minutes to load my account balance.,mobile_app_crash,False
+Urgent complaint: i'm being charged interest on my BNPL plan even though it was advertised as interest-free.,bnpl_payment_dispute,True
+My QR payment was successful but I received no receipt and merchant got no notification.,qr_payment_failure,True
+Urgent complaint: i set a crypto limit order but it was never executed even though the price target was reached.,crypto_wallet_error,True
+I can't use fingerprint authentication to approve payments anymore. The sensor keeps timing out. This is urgently needed.,biometric_auth_failure,True
+This is my third complaint about this issue. eTC card reader at the Subang toll failed to scan my card. The barrier didn't open. This is affecting my daily life.,etc_card_toll,False
+"Dear support team, i attempted an urgent bank transfer but the app gave an error and I cannot see if it went through.",mobile_app_transfer,False
+My credit card minimum payment due is incorrect. The calculation doesn't match my statement. I'm considering switching banks over this.,credit_card_billing,False
+I'm experiencing an issue where i want to cancel my BNPL plan but there's no cancellation option in the app.,bnpl_payment_dispute,True
+This is my third complaint about this issue. i've requested OTP 10 times in the last hour and haven't received a single one.,mobile_app_otp,False
+"I've been a loyal customer for years and now your mobile app login page just spins and never loads. I've been unable to access my account since March 15, 2026.",mobile_app_login,False
+"Dear support team, credit card reward points were deducted from my account without my knowledge. I expect a response within 24 hours.",credit_card_billing,False
+I'm experiencing an issue where i want to cancel my BNPL plan but there's no cancellation option in the app. I'm very disappointed.,bnpl_payment_dispute,True
+I am extremely frustrated because i'm being charged an annual fee I never agreed to on my credit card account. Please resolve this immediately.,credit_card_billing,False
+ETC card top-up via ATM was successful but the balance on the card wasn't updated. I'm considering switching banks over this.,etc_card_topup,False
+I'm experiencing an issue where the QR scanner in your app doesn't open. I tap the icon and nothing happens.,qr_payment_failure,True
+My virtual credit card limit doesn't match what I set when I created it. This is urgently needed.,virtual_card_issue,True
+I made a BNPL purchase but it doesn't appear in my loan or installment section.,bnpl_payment_dispute,True
+I'm contacting you because the top-up limit for my ETC card was reduced without notice. I cannot add the amount I need. Please resolve this immediately.,etc_card_topup,False
+Virtual card transactions are not showing up in my transaction history. Please look into this immediately.,virtual_card_issue,True
+I sold my crypto holdings but the proceeds haven't been credited to my bank account after 5 days. I'm very disappointed.,crypto_wallet_error,True
+"Dear support team, your bank's website certificate has expired and my browser won't let me access online banking. This is affecting my daily life.",online_banking_access,False
+"I've been a loyal customer for years and now i'm embarrassed — my Unified Bank credit card was declined in front of everyone at the restaurant, even with sufficient credit limit. I will escalate to the regulator if this is not resolved.",credit_card_declined,False
+I want to report a problem: i'm getting charged for virtual card transactions I never made.,virtual_card_issue,True
+Urgent complaint: your app's face recognition feature is not working in low light. I have to type my password every time. This is urgently needed.,biometric_auth_failure,True
+I signed up for buy-now-pay-later through your bank but my installment amount is incorrect. I'm very disappointed.,bnpl_payment_dispute,True
+I'm experiencing an issue where i cannot withdraw crypto to my hardware wallet. The destination address field rejects valid addresses.,crypto_wallet_error,True
+My BNPL payment was rejected even though I have sufficient balance in my account. This is urgently needed.,bnpl_payment_dispute,True
+I received a late payment fee for my BNPL even though I set up auto-debit.,bnpl_payment_dispute,True
+Online banking shows my old address and I cannot update my profile. The save button is broken.,online_banking_access,False
+The banking app on my Pixel 8 won't let me sign in. I've tried resetting my password three times but the login still fails.,mobile_app_login,False
+I want to report a problem: i paid via QR code but the merchant's system shows payment not received while my account was debited.,qr_payment_failure,True
+My face recognition login stopped working after the latest bank app update. It keeps saying 'Face not recognized'.,biometric_auth_failure,True
+Urgent complaint: the virtual card I created expired before I could use it. No warning was given. I'm very disappointed.,virtual_card_issue,True
+I need help because my Bitcoin purchase through the bank app was deducted from my account but no crypto was received. This is urgently needed.,crypto_wallet_error,True
+This is my third complaint about this issue. my debit card was blocked due to 'suspicious activity' but all transactions were made by me. I'm considering switching banks over this.,debit_card_blocked,False
+I can't find my virtual card details in the banking app. The option seems to have disappeared. Please look into this immediately.,virtual_card_issue,True
+I'm experiencing an issue where i received a late payment fee for my BNPL even though I set up auto-debit. I'm very disappointed.,bnpl_payment_dispute,True
+"Dear support team, aTM withdrew money from my account but dispensed the wrong amount.",debit_card_atm,False
+I am extremely frustrated because the bank blocked my debit card without sending me a notification or reason. Please resolve this immediately.,debit_card_blocked,False
+I want to report a problem: fingerprint banking login worked yesterday but is completely broken today without explanation. I'm very disappointed.,biometric_auth_failure,True
+I'm experiencing an issue where qR payment transactions are not appearing in my statement even after 24 hours. I'm very disappointed.,qr_payment_failure,True
+My crypto wallet in the bank app disappeared after the latest update.,crypto_wallet_error,True
+Urgent complaint: my QR payment was successful but I received no receipt and merchant got no notification. Please look into this immediately.,qr_payment_failure,True
+Urgent complaint: i signed up for buy-now-pay-later through your bank but my installment amount is incorrect. Please look into this immediately.,bnpl_payment_dispute,True
+"My BNPL credit limit was reduced without any notification, causing my recent purchase to fail.",bnpl_payment_dispute,True
+"I've been a loyal customer for years and now i'm embarrassed — my MegaBank credit card was declined in front of everyone at the restaurant, even with sufficient credit limit.",credit_card_declined,False
+I want to report a problem: qR payment transactions are not appearing in my statement even after 24 hours. I'm very disappointed.,qr_payment_failure,True
+Urgent complaint: the QR scanner in your app doesn't open. I tap the icon and nothing happens. Please look into this immediately.,qr_payment_failure,True
+Cannot use Touch ID to log into the banking app since the last software update. I'm very disappointed.,biometric_auth_failure,True
+"Hi, I'm writing to complain that my ETC card always worked before but suddenly stopped being recognized at toll gates. This is affecting my daily life.",etc_card_toll,False
+I've been a loyal customer for years and now i cannot use my debit card online. It's being declined for all internet purchases. I will escalate to the regulator if this is not resolved.,debit_card_blocked,False
+Credit card declined for a recurring subscription payment I've been making for 2 years. Please resolve this immediately.,credit_card_declined,False
+I'm experiencing an issue where my face recognition login stopped working after the latest bank app update. It keeps saying 'Face not recognized'. Please look into this immediately.,biometric_auth_failure,True
+Urgent complaint: my crypto portfolio value is not updating in real time. Prices are hours behind.,crypto_wallet_error,True
+I am extremely frustrated because oTP verification keeps failing. The code you send doesn't match what the app expects.,mobile_app_otp,False
+ETC card works at some toll booths but not others. Inconsistent behavior is causing issues.,etc_card_toll,False
+This is my third complaint about this issue. i deposited a cheque 5 days ago but it hasn't appeared in my account balance.,account_balance,False
+"QR payments work inconsistently — sometimes succeed, sometimes fail for no apparent reason. I'm very disappointed.",qr_payment_failure,True
+The BNPL feature approved my purchase but the merchant didn't receive payment. I'm very disappointed.,bnpl_payment_dispute,True
+"Hi, I'm writing to complain that i was fined for not paying toll because my ETC card wasn't recognized. Please help. I expect a response within 24 hours.",etc_card_toll,False
+QR payment at Lazada failed halfway through. Money was deducted but I have no transaction record. Please look into this immediately.,qr_payment_failure,True
+I'm experiencing an issue where i cannot convert my crypto to cash through your bank platform. The option is grayed out.,crypto_wallet_error,True
+This is my third complaint about this issue. my salary was credited but an unauthorized debit brought my balance to nearly zero. Please resolve this immediately.,account_balance,False
+I need urgent help — sMS OTP is going to my old phone number even after I updated it in the app.,mobile_app_otp,False
+I'm contacting you because my fixed deposit maturity amount was not credited to my account on the due date. I will escalate to the regulator if this is not resolved.,account_balance,False
+I need help because i can't view my BNPL installment schedule in the mobile banking app. I'm very disappointed.,bnpl_payment_dispute,True
+"I'm getting 'Transaction declined' when trying to transfer funds, but my balance is sufficient. I will escalate to the regulator if this is not resolved.",mobile_app_transfer,False
+This is my third complaint about this issue. the authentication code you sent is 6 digits but the app field only accepts 4 digits.,mobile_app_otp,False
+I want to report a problem: the fingerprint scanner in the banking app doesn't respond when I place my finger on it. This is urgently needed.,biometric_auth_failure,True
+"Hi, I'm writing to complain that i'm not receiving the OTP SMS needed to complete my transaction. I've been waiting 30 minutes.",mobile_app_otp,False
+QR payment transactions are not appearing in my statement even after 24 hours. Please look into this immediately.,qr_payment_failure,True
+SMS OTP is going to my old phone number even after I updated it in the app. Please resolve this immediately.,mobile_app_otp,False
+This is unacceptable. i updated the app last night and now I can't log in. The screen goes blank after I enter my credentials.,mobile_app_login,False
+"Dear support team, the top-up limit for my ETC card was reduced without notice. I cannot add the amount I need.",etc_card_topup,False
+I am extremely frustrated because mobile banking app doubled my transfer — debited my account twice for a single transaction.,mobile_app_transfer,False
+My virtual card was blocked after one declined transaction online. I'm very disappointed.,virtual_card_issue,True
+I need urgent help — the transfer confirmation page in the app keeps refreshing without completing the transaction. I'm considering switching banks over this.,mobile_app_transfer,False
+I want to report a problem: face unlock for banking is always showing 'Verification failed'. My face is the same! I'm very disappointed.,biometric_auth_failure,True
+I need help because i'm getting charged for virtual card transactions I never made. This is urgently needed.,virtual_card_issue,True
+The app freezes for 5 minutes every time I try to view my credit card bill.,mobile_app_crash,False
+I set a crypto limit order but it was never executed even though the price target was reached.,crypto_wallet_error,True
+I am extremely frustrated because the app asks for my password then immediately freezes. I have to force close it and start over.,mobile_app_login,False
+I want to report a problem: i can't use fingerprint authentication to approve payments anymore. The sensor keeps timing out.,biometric_auth_failure,True
+The toll plaza scanner rejected my ETC card three times. I had to pay cash as a result. I will escalate to the regulator if this is not resolved.,etc_card_toll,False
+I've been a loyal customer for years and now my debit card got stuck in the ATM slot. It won't come out and the screen has gone blank.,debit_card_atm,False
+This is my third complaint about this issue. i've noticed regular small debits from my account that I don't recognize. Possible fraud. I will escalate to the regulator if this is not resolved.,account_balance,False
+I need urgent help — i did a balance inquiry at the ATM and it showed a lower balance than what's in my account.,debit_card_atm,False
+Urgent complaint: my bank's digital asset account was locked without any explanation or notice.,crypto_wallet_error,True
+I'm being charged an annual fee I never agreed to on my credit card account. This is affecting my daily life.,credit_card_billing,False
+I cannot withdraw crypto to my hardware wallet. The destination address field rejects valid addresses. This is urgently needed.,crypto_wallet_error,True
+The QR scanner in your app doesn't open. I tap the icon and nothing happens. Please look into this immediately.,qr_payment_failure,True
+I need urgent help — i deposited a cheque 5 days ago but it hasn't appeared in my account balance. This is affecting my daily life.,account_balance,False
+"I am extremely frustrated because i'm getting 'Transaction declined' when trying to transfer funds, but my balance is sufficient. This is affecting my daily life.",mobile_app_transfer,False
+I need help because i cannot enable QR payments in settings. The toggle switches on but reverts immediately.,qr_payment_failure,True
+Urgent complaint: i can't find my virtual card details in the banking app. The option seems to have disappeared.,virtual_card_issue,True
+I'm being charged interest on my BNPL plan even though it was advertised as interest-free.,bnpl_payment_dispute,True
+Urgent complaint: the virtual card I created expired before I could use it. No warning was given. This is urgently needed.,virtual_card_issue,True
+"Dear support team, my debit card got stuck in the ATM slot. It won't come out and the screen has gone blank.",debit_card_atm,False
+"Dear support team, the transfer confirmation page in the app keeps refreshing without completing the transaction. I'm considering switching banks over this.",mobile_app_transfer,False
+I want to report a problem: qR payment limit is too low — I can't use it for larger purchases even with sufficient balance.,qr_payment_failure,True
+I'm contacting you because your app has been crashing non-stop since the latest iOS update. Please release a patch. I expect a response within 24 hours.,mobile_app_crash,False
+The fingerprint scanner in the banking app doesn't respond when I place my finger on it. I'm very disappointed.,biometric_auth_failure,True
+This is my third complaint about this issue. the app asks for my password then immediately freezes. I have to force close it and start over. I will escalate to the regulator if this is not resolved.,mobile_app_login,False
+I need help because i tried to pay via QR code and got error 'QR session expired' every time I scan. This is urgently needed.,qr_payment_failure,True
+"Hi, I'm writing to complain that my credit card was declined when I tried to pay for my flight tickets. This is urgent.",credit_card_declined,False
+"Hi, I'm writing to complain that i returned a product but the refund hasn't appeared on my credit card statement after 3 weeks. This is affecting my daily life.",credit_card_billing,False
+Urgent complaint: your app's face recognition feature is not working in low light. I have to type my password every time. Please look into this immediately.,biometric_auth_failure,True
+I made a BNPL purchase but it doesn't appear in my loan or installment section.,bnpl_payment_dispute,True
+I need help because i signed up for buy-now-pay-later through your bank but my installment amount is incorrect. This is urgently needed.,bnpl_payment_dispute,True
+I need help because i registered my fingerprint for banking authentication but it no longer works. The app rejects my fingerprint every time.,biometric_auth_failure,True
+"QR payments work inconsistently — sometimes succeed, sometimes fail for no apparent reason. This is urgently needed.",qr_payment_failure,True
+"Hi, I'm writing to complain that mobile banking app is extremely slow. It takes over 2 minutes to load my account balance.",mobile_app_crash,False
+I'm experiencing an issue where i registered my fingerprint for banking authentication but it no longer works. The app rejects my fingerprint every time.,biometric_auth_failure,True
+I've been a loyal customer for years and now the toll system said my ETC card was invalid even though it's registered and topped up. I will escalate to the regulator if this is not resolved.,etc_card_toll,False
+"Dear support team, top-up transaction for my ETC card is showing 'processing' for 48 hours with no update.",etc_card_topup,False
+I'm contacting you because my credit card transaction was declined at a supermarket. I had more than enough credit available.,credit_card_declined,False
+My crypto wallet in the bank app disappeared after the latest update.,crypto_wallet_error,True
+"Hi, I'm writing to complain that eTC card transponder seems to have failed. I'm getting error beeps at every toll plaza. I'm considering switching banks over this.",etc_card_toll,False
+Urgent complaint: i'm getting charged for virtual card transactions I never made. Please look into this immediately.,virtual_card_issue,True
+I'm contacting you because i deposited a cheque 5 days ago but it hasn't appeared in my account balance. I will escalate to the regulator if this is not resolved.,account_balance,False
+I need help because biometric authentication stopped working on my phone after I changed my screen protector. Please look into this immediately.,biometric_auth_failure,True
+I need urgent help — my account balance shows negative even though I have funds deposited. This looks like a system error. I'm considering switching banks over this.,account_balance,False
+I want to report a problem: i set a crypto limit order but it was never executed even though the price target was reached.,crypto_wallet_error,True
+"Hi, I'm writing to complain that there are duplicate debits on my account that don't match any transaction I made. I will escalate to the regulator if this is not resolved.",account_balance,False
+QR payment at Grab failed halfway through. Money was deducted but I have no transaction record.,qr_payment_failure,True
+I want to report a problem: i paid via QR code but the merchant's system shows payment not received while my account was debited.,qr_payment_failure,True
+I tried to enroll a purchase in BNPL but the option was greyed out in the app. This is urgently needed.,bnpl_payment_dispute,True
+I am extremely frustrated because i'm unable to reset my online banking password. The 'Forgot Password' link doesn't work.,online_banking_access,False
+I want to report a problem: i can't use fingerprint authentication to approve payments anymore. The sensor keeps timing out.,biometric_auth_failure,True
+Cannot use Touch ID to log into the banking app since the last software update. This is urgently needed.,biometric_auth_failure,True
+My Bitcoin purchase through the bank app was deducted from my account but no crypto was received. Please look into this immediately.,crypto_wallet_error,True
+I want to report a problem: the QR code shown in your app is blurry and merchants cannot scan it. Please look into this immediately.,qr_payment_failure,True
+I've been a loyal customer for years and now the fingerprint login on my banking app suddenly stopped working. I cannot get into my account at all. I will escalate to the regulator if this is not resolved.,mobile_app_login,False
+I'm experiencing an issue where qR payment limit is too low — I can't use it for larger purchases even with sufficient balance.,qr_payment_failure,True
+I need help because i cannot delete an old virtual card in the app. The delete button is not working. This is urgently needed.,virtual_card_issue,True
+I need urgent help — the mobile app is saying my OTP is incorrect even though I'm entering it exactly as received. Please resolve this immediately.,mobile_app_otp,False
+I need urgent help — i did a balance inquiry at the ATM and it showed a lower balance than what's in my account. I expect a response within 24 hours.,debit_card_atm,False
+The transfer confirmation page in the app keeps refreshing without completing the transaction. Please resolve this immediately.,mobile_app_transfer,False
+This is my third complaint about this issue. online top-up for my ETC card failed but the payment was debited from my bank account.,etc_card_topup,False
+Urgent complaint: qR payment via your banking app keeps saying 'Invalid QR code' even for merchants I've paid before.,qr_payment_failure,True
+I've been waiting 3 days for an ETC top-up to reflect on my card. Customer service is not helping. I'm considering switching banks over this.,etc_card_topup,False
+My BNPL payment was rejected even though I have sufficient balance in my account.,bnpl_payment_dispute,True
+I'm experiencing an issue where i signed up for buy-now-pay-later through your bank but my installment amount is incorrect. This is urgently needed.,bnpl_payment_dispute,True
+My debit card was suddenly blocked. I cannot use it for any transactions. I expect a response within 24 hours.,debit_card_blocked,False
+I want to report a problem: i tried to send crypto to an external wallet but the transfer has been stuck 'pending' for 3 days. I'm very disappointed.,crypto_wallet_error,True
+This is unacceptable. i was fined for not paying toll because my ETC card wasn't recognized. Please help. I expect a response within 24 hours.,etc_card_toll,False
+My QR payment was successful but I received no receipt and merchant got no notification.,qr_payment_failure,True
+I was not informed about the processing fee when I signed up for BNPL.,bnpl_payment_dispute,True
+I need urgent help — i'm experiencing constant app crashes on my OnePlus 12. The app is unusable right now. I will escalate to the regulator if this is not resolved.,mobile_app_crash,False
+"Hi, I'm writing to complain that my account shows a credit reversal that I never initiated. Balance is now lower than expected.",account_balance,False
+I tried to pay via QR code and got error 'QR session expired' every time I scan. This is urgently needed.,qr_payment_failure,True
+Online banking login page is down. I've tried multiple browsers and devices. I will escalate to the regulator if this is not resolved.,online_banking_access,False
+I am extremely frustrated because the ATM near Petaling Jaya is broken and captured my debit card. Please retrieve it urgently. This is affecting my daily life.,debit_card_atm,False
+I want to report a problem: i cannot convert my crypto to cash through your bank platform. The option is grayed out. This is urgently needed.,crypto_wallet_error,True
+I'm experiencing an issue where i cancelled a BNPL purchase but I'm still being charged monthly installments.,bnpl_payment_dispute,True
+QR payment transactions are not appearing in my statement even after 24 hours. Please look into this immediately.,qr_payment_failure,True
+I need urgent help — login button is not responding on the mobile banking app. I've tapped it dozens of times.,mobile_app_login,False
+I'm contacting you because aTM dispensed short of the requested amount but debited my account for the full amount. I'm considering switching banks over this.,debit_card_atm,False
+I need help because i cannot delete an old virtual card in the app. The delete button is not working. Please look into this immediately.,virtual_card_issue,True
+"Hi, I'm writing to complain that my card was declined for a small transaction of RM 2,686.59. This makes no sense given my credit limit. I expect a response within 24 hours.",credit_card_declined,False
+I need help because i generated a virtual card for online shopping but it was declined immediately.,virtual_card_issue,True
+I need help because my face recognition login stopped working after the latest bank app update. It keeps saying 'Face not recognized'. I'm very disappointed.,biometric_auth_failure,True
+This is my third complaint about this issue. my debit card was suddenly blocked. I cannot use it for any transactions.,debit_card_blocked,False
+"Hi, I'm writing to complain that my credit card transaction was declined at a supermarket. I had more than enough credit available.",credit_card_declined,False
+I am extremely frustrated because my ETC card always worked before but suddenly stopped being recognized at toll gates.,etc_card_toll,False
+Virtual card details are not loading in the app. The section just shows a blank screen. I'm very disappointed.,virtual_card_issue,True
+"Dear support team, the interbank transfer feature in your app has been broken for 3 days. I urgently need to move funds. Please resolve this immediately.",mobile_app_transfer,False
+I want to report a problem: i want to cancel my BNPL plan but there's no cancellation option in the app.,bnpl_payment_dispute,True
+QR payment at Grab failed halfway through. Money was deducted but I have no transaction record. This is urgently needed.,qr_payment_failure,True
+Urgent complaint: banking app biometric verification fails every single attempt. Forces me to use password. I'm very disappointed.,biometric_auth_failure,True
+I want to report a problem: qR payment at Shopee failed halfway through. Money was deducted but I have no transaction record. This is urgently needed.,qr_payment_failure,True
+I'm experiencing an issue where the banking app keeps prompting me to register biometrics even though I already did it. I'm very disappointed.,biometric_auth_failure,True
+I need urgent help — my debit card was blocked after one failed PIN attempt. This is very inconvenient. I expect a response within 24 hours.,debit_card_blocked,False
+I'm experiencing an issue where my bank's buy-now-pay-later shows a due amount that doesn't match my purchase total.,bnpl_payment_dispute,True
+Urgent complaint: my bank's digital asset account was locked without any explanation or notice.,crypto_wallet_error,True
+"Dear support team, i tried to transfer RM 519.30 to my savings account via the mobile app but the transaction failed and the money is gone. I will escalate to the regulator if this is not resolved.",mobile_app_transfer,False
+My bank's crypto wallet balance is showing incorrect amounts after a recent transfer.,crypto_wallet_error,True
+I can't find my virtual card details in the banking app. The option seems to have disappeared.,virtual_card_issue,True
+My credit card keeps getting declined even though I paid off the full balance last week. I will escalate to the regulator if this is not resolved.,credit_card_declined,False
+I'm experiencing an issue where my BNPL payment was rejected even though I have sufficient balance in my account. This is urgently needed.,bnpl_payment_dispute,True
+I need help because biometric login on your app is completely broken on my Samsung Galaxy S24. Face ID was working perfectly before. Please look into this immediately.,biometric_auth_failure,True
+My face recognition login stopped working after the latest bank app update. It keeps saying 'Face not recognized'. This is urgently needed.,biometric_auth_failure,True
+I cannot delete an old virtual card in the app. The delete button is not working.,virtual_card_issue,True
+This is my third complaint about this issue. eTC card transponder seems to have failed. I'm getting error beeps at every toll plaza. This is affecting my daily life.,etc_card_toll,False
+I want to cancel my BNPL plan but there's no cancellation option in the app.,bnpl_payment_dispute,True
+I'm experiencing an issue where the virtual card I created expired before I could use it. No warning was given. I'm very disappointed.,virtual_card_issue,True
+I need help because i paid off my BNPL balance early but the account still shows outstanding amount. Please look into this immediately.,bnpl_payment_dispute,True
+The QR code shown in your app is blurry and merchants cannot scan it. Please look into this immediately.,qr_payment_failure,True
+Urgent complaint: i cannot delete an old virtual card in the app. The delete button is not working. Please look into this immediately.,virtual_card_issue,True
+Urgent complaint: i tried to pay via QR code and got error 'QR session expired' every time I scan.,qr_payment_failure,True
+"Hi, I'm writing to complain that the app crashes after the latest update v6.8.3. Please fix this urgently. I will escalate to the regulator if this is not resolved.",mobile_app_crash,False
+QR code payment is extremely slow — takes over 2 minutes to process at the checkout. Please look into this immediately.,qr_payment_failure,True
+I'm experiencing an issue where my bank's buy-now-pay-later shows a due amount that doesn't match my purchase total. I'm very disappointed.,bnpl_payment_dispute,True
+The QR code shown in your app is blurry and merchants cannot scan it.,qr_payment_failure,True
+Biometric login on your app is completely broken on my iPhone 14 Pro. Face ID was working perfectly before. This is urgently needed.,biometric_auth_failure,True
+I need urgent help — mobile app keeps logging me out immediately after I sign in. This is happening on my Huawei P60. I will escalate to the regulator if this is not resolved.,mobile_app_login,False
+My credit card ending in 8126 was declined at a Shell store even though I have available credit.,credit_card_declined,False
+I'm experiencing an issue where the virtual card I created expired before I could use it. No warning was given. This is urgently needed.,virtual_card_issue,True
+My bank's digital asset account was locked without any explanation or notice.,crypto_wallet_error,True
+QR payment transactions are not appearing in my statement even after 24 hours. I'm very disappointed.,qr_payment_failure,True
+I need urgent help — i keep getting 'Card declined' error when using my credit card for contactless payments. I'm considering switching banks over this.,credit_card_declined,False
+The BNPL feature approved my purchase but the merchant didn't receive payment.,bnpl_payment_dispute,True
+My BNPL plan was supposed to be 12 months but it's charging me as if it's 6 months. Please look into this immediately.,bnpl_payment_dispute,True
+I can't find my virtual card details in the banking app. The option seems to have disappeared. This is urgently needed.,virtual_card_issue,True
+Urgent complaint: the QR code shown in your app is blurry and merchants cannot scan it. This is urgently needed.,qr_payment_failure,True
+I've been a loyal customer for years and now my fixed deposit maturity amount was not credited to my account on the due date. Please resolve this immediately.,account_balance,False
+I need help because my virtual card was blocked after one declined transaction online. I'm very disappointed.,virtual_card_issue,True
+I enrolled my fingerprint for mobile banking but the system says it's not recognized. I'm very disappointed.,biometric_auth_failure,True
+I paid via QR code but the merchant's system shows payment not received while my account was debited. I'm very disappointed.,qr_payment_failure,True
+ETC card top-up via ATM was successful but the balance on the card wasn't updated. I will escalate to the regulator if this is not resolved.,etc_card_topup,False
+This is unacceptable. mobile banking app is extremely slow. It takes over 2 minutes to load my account balance. I will escalate to the regulator if this is not resolved.,mobile_app_crash,False
+I can't find my virtual card details in the banking app. The option seems to have disappeared. Please look into this immediately.,virtual_card_issue,True
+I want to cancel my BNPL plan but there's no cancellation option in the app. This is urgently needed.,bnpl_payment_dispute,True
+Urgent complaint: i can't view my BNPL installment schedule in the mobile banking app. Please look into this immediately.,bnpl_payment_dispute,True
+I'm experiencing an issue where i'm being charged excessive fees for crypto transactions that weren't disclosed upfront. This is urgently needed.,crypto_wallet_error,True
+Cannot use Touch ID to log into the banking app since the last software update. Please look into this immediately.,biometric_auth_failure,True
+The bank's crypto exchange rate is way off market rate — I'm losing money on every conversion. I'm very disappointed.,crypto_wallet_error,True
+"Dear support team, the toll system said my ETC card was invalid even though it's registered and topped up. I'm considering switching banks over this.",etc_card_toll,False
+I was not informed about the processing fee when I signed up for BNPL. This is urgently needed.,bnpl_payment_dispute,True
+My credit card ending in 5441 was declined at a AEON Mall store even though I have available credit. I will escalate to the regulator if this is not resolved.,credit_card_declined,False
+I cannot withdraw crypto to my hardware wallet. The destination address field rejects valid addresses. Please look into this immediately.,crypto_wallet_error,True
+I cannot enable QR payments in settings. The toggle switches on but reverts immediately.,qr_payment_failure,True
+This is my third complaint about this issue. my debit card was suddenly blocked. I cannot use it for any transactions. Please resolve this immediately.,debit_card_blocked,False
+My BNPL payment was rejected even though I have sufficient balance in my account. I'm very disappointed.,bnpl_payment_dispute,True
+I need help because my bank's buy-now-pay-later shows a due amount that doesn't match my purchase total.,bnpl_payment_dispute,True
+I was not informed about the processing fee when I signed up for BNPL. Please look into this immediately.,bnpl_payment_dispute,True
+"Dear support team, i'm unable to make overseas transfers via the app. It keeps timing out at the final step.",mobile_app_transfer,False
+Urgent complaint: qR payment transactions are not appearing in my statement even after 24 hours. I'm very disappointed.,qr_payment_failure,True
+I want to report a problem: face unlock for banking is always showing 'Verification failed'. My face is the same! Please look into this immediately.,biometric_auth_failure,True
+Urgent complaint: i'm unable to add my virtual card to Google Pay. The verification keeps failing. I'm very disappointed.,virtual_card_issue,True
+Urgent complaint: i set spending limits on my virtual card but the limit is being ignored.,virtual_card_issue,True
+I tried to transfer crypto from my bank's digital wallet but the transaction failed. This is urgently needed.,crypto_wallet_error,True
+"Hi, I'm writing to complain that my salary was credited but an unauthorized debit brought my balance to nearly zero.",account_balance,False
+I am extremely frustrated because the authentication code you sent is 6 digits but the app field only accepts 4 digits. Please resolve this immediately.,mobile_app_otp,False
+I need help because i can't view my BNPL installment schedule in the mobile banking app. I'm very disappointed.,bnpl_payment_dispute,True
+"Urgent complaint: after re-registering my face 5 times, the biometric login still fails consistently. This is urgently needed.",biometric_auth_failure,True
+I'm being charged excessive fees for crypto transactions that weren't disclosed upfront. I'm very disappointed.,crypto_wallet_error,True
+"Hi, I'm writing to complain that i tried to use my credit card at Lazada but it was declined without any reason. This is affecting my daily life.",credit_card_declined,False
+"Dear support team, banking app keeps crashing after I tap on 'View Statement'. Other features work fine. Please resolve this immediately.",mobile_app_crash,False
+"I'm contacting you because your mobile app login page just spins and never loads. I've been unable to access my account since March 14, 2026. I expect a response within 24 hours.",mobile_app_login,False
+Urgent complaint: i can't use fingerprint authentication to approve payments anymore. The sensor keeps timing out. This is urgently needed.,biometric_auth_failure,True
+I am extremely frustrated because aTM withdrew money from my account but dispensed the wrong amount. I expect a response within 24 hours.,debit_card_atm,False
+"Hi, I'm writing to complain that the app asks for my password then immediately freezes. I have to force close it and start over. I'm considering switching banks over this.",mobile_app_login,False
+My QR payment was reversed without explanation and my balance wasn't returned immediately.,qr_payment_failure,True
+"Hi, I'm writing to complain that i was charged for an ATM withdrawal that never happened. The machine malfunctioned. Please resolve this immediately.",debit_card_atm,False
+QR payment limit is too low — I can't use it for larger purchases even with sufficient balance. I'm very disappointed.,qr_payment_failure,True
+I cancelled a BNPL purchase but I'm still being charged monthly installments.,bnpl_payment_dispute,True
+I've been a loyal customer for years and now i cannot log in to your mobile banking app. It keeps saying 'invalid credentials' even though my password is correct. I'm considering switching banks over this.,mobile_app_login,False
+My BNPL plan was supposed to be 12 months but it's charging me as if it's 6 months.,bnpl_payment_dispute,True
+The online banking portal redirects me to an error page every time I try to log in. Please resolve this immediately.,online_banking_access,False
+I'm experiencing an issue where my BNPL payment was rejected even though I have sufficient balance in my account. This is urgently needed.,bnpl_payment_dispute,True
+I want to report a problem: my QR payment was reversed without explanation and my balance wasn't returned immediately.,qr_payment_failure,True
+I am extremely frustrated because the transfer confirmation page in the app keeps refreshing without completing the transaction. I will escalate to the regulator if this is not resolved.,mobile_app_transfer,False
+"Hi, I'm writing to complain that mobile banking app is extremely slow. It takes over 2 minutes to load my account balance.",mobile_app_crash,False
+I'm experiencing an issue where my Bitcoin purchase through the bank app was deducted from my account but no crypto was received. Please look into this immediately.,crypto_wallet_error,True
+QR payment at Shell failed halfway through. Money was deducted but I have no transaction record.,qr_payment_failure,True
+"Hi, I'm writing to complain that my credit card interest rate was changed without prior notification. My bill is much higher than expected.",credit_card_billing,False
+"Dear support team, eTC card works at some toll booths but not others. Inconsistent behavior is causing issues. I'm considering switching banks over this.",etc_card_toll,False
+"This is unacceptable. credit card declined for an online purchase of RM 1,812.84. My card is active and not expired.",credit_card_declined,False
+Banking app keeps crashing after I tap on 'View Statement'. Other features work fine.,mobile_app_crash,False
+Urgent complaint: my virtual debit card number has changed without my approval and now my subscriptions are failing. Please look into this immediately.,virtual_card_issue,True
+This is unacceptable. online banking login page is down. I've tried multiple browsers and devices. I expect a response within 24 hours.,online_banking_access,False
+This is unacceptable. i'm unable to reset my online banking password. The 'Forgot Password' link doesn't work. This is affecting my daily life.,online_banking_access,False
+I'm experiencing an issue where virtual card CVV changes every hour but the new CVV is not being shown in the app. I'm very disappointed.,virtual_card_issue,True
+I set a crypto limit order but it was never executed even though the price target was reached.,crypto_wallet_error,True
+I need help because i cannot delete an old virtual card in the app. The delete button is not working. I'm very disappointed.,virtual_card_issue,True
+I want to report a problem: my virtual credit card limit doesn't match what I set when I created it. I'm very disappointed.,virtual_card_issue,True
+I can't find my virtual card details in the banking app. The option seems to have disappeared. This is urgently needed.,virtual_card_issue,True
+I am extremely frustrated because i attempted an urgent bank transfer but the app gave an error and I cannot see if it went through. This is affecting my daily life.,mobile_app_transfer,False
+"Your mobile app login page just spins and never loads. I've been unable to access my account since January 16, 2026.",mobile_app_login,False
+I need help because i enrolled my fingerprint for mobile banking but the system says it's not recognized. Please look into this immediately.,biometric_auth_failure,True
+I need help because i'm being charged excessive fees for crypto transactions that weren't disclosed upfront. I'm very disappointed.,crypto_wallet_error,True
+This is unacceptable. aTM withdrew money from my account but dispensed the wrong amount.,debit_card_atm,False
+My face recognition login stopped working after the latest bank app update. It keeps saying 'Face not recognized'. Please look into this immediately.,biometric_auth_failure,True
+I need help because i received a late payment fee for my BNPL even though I set up auto-debit.,bnpl_payment_dispute,True
+My Bitcoin purchase through the bank app was deducted from my account but no crypto was received.,crypto_wallet_error,True
+"Dear support team, my account balance shows negative even though I have funds deposited. This looks like a system error. I will escalate to the regulator if this is not resolved.",account_balance,False
+I need urgent help — fund transfer on the mobile banking app shows 'Pending' for over 24 hours. The amount has been deducted. This is affecting my daily life.,mobile_app_transfer,False
+Urgent complaint: i set a crypto limit order but it was never executed even though the price target was reached.,crypto_wallet_error,True
+I'm experiencing an issue where i generated a virtual card for online shopping but it was declined immediately.,virtual_card_issue,True
+"Dear support team, my fixed deposit maturity amount was not credited to my account on the due date.",account_balance,False
+QR payment via your banking app keeps saying 'Invalid QR code' even for merchants I've paid before. This is urgently needed.,qr_payment_failure,True
+Biometric authentication stopped working on my phone after I changed my screen protector. I'm very disappointed.,biometric_auth_failure,True
+I've been a loyal customer for years and now the interbank transfer feature in your app has been broken for 3 days. I urgently need to move funds.,mobile_app_transfer,False
+I'm experiencing an issue where your app's face recognition feature is not working in low light. I have to type my password every time. I'm very disappointed.,biometric_auth_failure,True
+My credit card statement shows a late fee even though I paid the minimum amount on time.,credit_card_billing,False
+My bank's crypto wallet balance is showing incorrect amounts after a recent transfer. I'm very disappointed.,crypto_wallet_error,True
+I need help because my Bitcoin purchase through the bank app was deducted from my account but no crypto was received.,crypto_wallet_error,True
+I need help because my BNPL payment was rejected even though I have sufficient balance in my account. This is urgently needed.,bnpl_payment_dispute,True
+I want to report a problem: i tried to buy Ethereum through your app and got 'Transaction rejected' with no reason given. This is urgently needed.,crypto_wallet_error,True
+I'm experiencing an issue where qR payment via your banking app keeps saying 'Invalid QR code' even for merchants I've paid before.,qr_payment_failure,True
+I enrolled my fingerprint for mobile banking but the system says it's not recognized. This is urgently needed.,biometric_auth_failure,True
+Urgent complaint: i cannot convert my crypto to cash through your bank platform. The option is grayed out. This is urgently needed.,crypto_wallet_error,True
+I made a BNPL purchase but it doesn't appear in my loan or installment section. Please look into this immediately.,bnpl_payment_dispute,True
+I need help because i set a crypto limit order but it was never executed even though the price target was reached.,crypto_wallet_error,True
+Virtual card CVV changes every hour but the new CVV is not being shown in the app.,virtual_card_issue,True
+I want to report a problem: i tried to transfer crypto from my bank's digital wallet but the transaction failed. Please look into this immediately.,crypto_wallet_error,True
+I'm experiencing an issue where qR payment limit is too low — I can't use it for larger purchases even with sufficient balance.,qr_payment_failure,True
+QR payment via your banking app keeps saying 'Invalid QR code' even for merchants I've paid before. Please look into this immediately.,qr_payment_failure,True
+Urgent complaint: my QR payment was successful but I received no receipt and merchant got no notification. This is urgently needed.,qr_payment_failure,True
+QR payment limit is too low — I can't use it for larger purchases even with sufficient balance. Please look into this immediately.,qr_payment_failure,True
+I'm contacting you because i traveled abroad and my debit card was blocked without warning. I have no access to cash.,debit_card_blocked,False
+I'm experiencing an issue where the bank's crypto exchange rate is way off market rate — I'm losing money on every conversion. This is urgently needed.,crypto_wallet_error,True
+This is my third complaint about this issue. the 2FA code sent by your bank is always invalid even though I enter it right away.,mobile_app_otp,False
+I'm experiencing an issue where i enrolled my fingerprint for mobile banking but the system says it's not recognized.,biometric_auth_failure,True
+"Dear support team, oTP verification keeps failing. The code you send doesn't match what the app expects.",mobile_app_otp,False
+I'm experiencing an issue where biometric authentication stopped working on my phone after I changed my screen protector. This is urgently needed.,biometric_auth_failure,True
+"My BNPL credit limit was reduced without any notification, causing my recent purchase to fail.",bnpl_payment_dispute,True
+This is unacceptable. i successfully log into online banking but all menu options are greyed out and unclickable. This is affecting my daily life.,online_banking_access,False
+My crypto wallet in the bank app disappeared after the latest update. I'm very disappointed.,crypto_wallet_error,True
+I'm being charged interest on my BNPL plan even though it was advertised as interest-free.,bnpl_payment_dispute,True
+I'm unable to make overseas transfers via the app. It keeps timing out at the final step. Please resolve this immediately.,mobile_app_transfer,False
+I want to report a problem: i set a crypto limit order but it was never executed even though the price target was reached.,crypto_wallet_error,True
+Urgent complaint: my virtual credit card limit doesn't match what I set when I created it.,virtual_card_issue,True
+I am extremely frustrated because your app has been crashing non-stop since the latest iOS update. Please release a patch. Please resolve this immediately.,mobile_app_crash,False
+I'm experiencing an issue where i paid off my BNPL balance early but the account still shows outstanding amount.,bnpl_payment_dispute,True
+Credit card reward points were deducted from my account without my knowledge.,credit_card_billing,False
+ETC card top-up via ATM was successful but the balance on the card wasn't updated.,etc_card_topup,False
+Urgent complaint: my bank's crypto wallet balance is showing incorrect amounts after a recent transfer. This is urgently needed.,crypto_wallet_error,True
+I want to report a problem: virtual card generated through your app is not working on international shopping sites. I'm very disappointed.,virtual_card_issue,True
+I'm getting charged for virtual card transactions I never made. This is urgently needed.,virtual_card_issue,True
+Top-up transaction for my ETC card is showing 'processing' for 48 hours with no update.,etc_card_topup,False
+I've been a loyal customer for years and now i keep requesting OTP but it never arrives. I've checked my signal and SMS inbox. Please resolve this immediately.,mobile_app_otp,False
+I need urgent help — i've requested OTP 10 times in the last hour and haven't received a single one. I'm considering switching banks over this.,mobile_app_otp,False
+"Hi, I'm writing to complain that the banking app on my OnePlus 12 won't let me sign in. I've tried resetting my password three times but the login still fails. I'm considering switching banks over this.",mobile_app_login,False
+I need help because i can't use fingerprint authentication to approve payments anymore. The sensor keeps timing out. I'm very disappointed.,biometric_auth_failure,True
+This is unacceptable. i was charged for an ATM withdrawal that never happened. The machine malfunctioned.,debit_card_atm,False
+Virtual card details are not loading in the app. The section just shows a blank screen.,virtual_card_issue,True
+"My BNPL credit limit was reduced without any notification, causing my recent purchase to fail. This is urgently needed.",bnpl_payment_dispute,True
+"My BNPL credit limit was reduced without any notification, causing my recent purchase to fail.",bnpl_payment_dispute,True
+I need urgent help — i returned a product but the refund hasn't appeared on my credit card statement after 3 weeks. Please resolve this immediately.,credit_card_billing,False
+I need help because i can't find my virtual card details in the banking app. The option seems to have disappeared. This is urgently needed.,virtual_card_issue,True
+Urgent complaint: i'm being charged interest on my BNPL plan even though it was advertised as interest-free. I'm very disappointed.,bnpl_payment_dispute,True
+I enabled facial recognition for my banking app but it keeps reverting to password login.,biometric_auth_failure,True
+Fingerprint banking login worked yesterday but is completely broken today without explanation. This is urgently needed.,biometric_auth_failure,True
+This is my third complaint about this issue. the ATM near Subang is broken and captured my debit card. Please retrieve it urgently. I will escalate to the regulator if this is not resolved.,debit_card_atm,False
+I want to report a problem: qR payment at Shopee failed halfway through. Money was deducted but I have no transaction record. Please look into this immediately.,qr_payment_failure,True
+The toll plaza scanner rejected my ETC card three times. I had to pay cash as a result.,etc_card_toll,False
+I'm contacting you because the one-time password your app sends has already expired by the time I receive it on my phone. I will escalate to the regulator if this is not resolved.,mobile_app_otp,False
+I received a late payment fee for my BNPL even though I set up auto-debit.,bnpl_payment_dispute,True
+I sold my crypto holdings but the proceeds haven't been credited to my bank account after 5 days. I'm very disappointed.,crypto_wallet_error,True
+"Dear support team, i tried to top up my ETC card via the mobile app but the top-up failed and money was deducted. I expect a response within 24 hours.",etc_card_topup,False
+The fingerprint scanner in the banking app doesn't respond when I place my finger on it. I'm very disappointed.,biometric_auth_failure,True
+I sold my crypto holdings but the proceeds haven't been credited to my bank account after 5 days. I'm very disappointed.,crypto_wallet_error,True
+I am extremely frustrated because my credit card statement shows a late fee even though I paid the minimum amount on time.,credit_card_billing,False
+I need urgent help — online banking session times out in 30 seconds even when I'm actively using it. Please resolve this immediately.,online_banking_access,False
+"I'm getting 'Transaction declined' when trying to transfer funds, but my balance is sufficient.",mobile_app_transfer,False
+I need help because my crypto portfolio value is not updating in real time. Prices are hours behind. I'm very disappointed.,crypto_wallet_error,True
+My face recognition login stopped working after the latest bank app update. It keeps saying 'Face not recognized'. This is urgently needed.,biometric_auth_failure,True
+Urgent complaint: fingerprint banking login worked yesterday but is completely broken today without explanation. Please look into this immediately.,biometric_auth_failure,True
+I'm experiencing an issue where i cannot delete an old virtual card in the app. The delete button is not working. Please look into this immediately.,virtual_card_issue,True
+I want to cancel my BNPL plan but there's no cancellation option in the app. This is urgently needed.,bnpl_payment_dispute,True
+Your internet banking website is extremely slow and times out before I can complete any transaction.,online_banking_access,False
+"Dear support team, debit card suddenly stopped working. I called customer service but they couldn't explain why. This is affecting my daily life.",debit_card_blocked,False
+I want to report a problem: my bank's crypto wallet balance is showing incorrect amounts after a recent transfer. This is urgently needed.,crypto_wallet_error,True
+I want to report a problem: my bank's buy-now-pay-later shows a due amount that doesn't match my purchase total.,bnpl_payment_dispute,True
+I want to report a problem: i was not informed about the processing fee when I signed up for BNPL. I'm very disappointed.,bnpl_payment_dispute,True
+I want to report a problem: i enrolled my fingerprint for mobile banking but the system says it's not recognized. Please look into this immediately.,biometric_auth_failure,True
+"Dear support team, i successfully log into online banking but all menu options are greyed out and unclickable. I'm considering switching banks over this.",online_banking_access,False
+This is unacceptable. my credit card keeps getting declined even though I paid off the full balance last week. I expect a response within 24 hours.,credit_card_declined,False
+Credit card reward points were deducted from my account without my knowledge.,credit_card_billing,False
+I need help because i generated a virtual card for online shopping but it was declined immediately. Please look into this immediately.,virtual_card_issue,True
+Fingerprint banking login worked yesterday but is completely broken today without explanation. This is urgently needed.,biometric_auth_failure,True
+I need urgent help — aTM dispensed short of the requested amount but debited my account for the full amount. I'm considering switching banks over this.,debit_card_atm,False
+I've been a loyal customer for years and now i tried to top up my ETC card via the mobile app but the top-up failed and money was deducted.,etc_card_topup,False
+I want to report a problem: i set spending limits on my virtual card but the limit is being ignored. Please look into this immediately.,virtual_card_issue,True
+Virtual card CVV changes every hour but the new CVV is not being shown in the app.,virtual_card_issue,True
+QR payment limit is too low — I can't use it for larger purchases even with sufficient balance.,qr_payment_failure,True
+Biometric login on your app is completely broken on my OnePlus 12. Face ID was working perfectly before. I'm very disappointed.,biometric_auth_failure,True
+I tried to transfer crypto from my bank's digital wallet but the transaction failed.,crypto_wallet_error,True
+"This is my third complaint about this issue. eTC card auto reload failed multiple times this month, leaving me unable to use the highway.",etc_card_topup,False
+"Hi, I'm writing to complain that aTM swallowed my debit card and didn't dispense the RM 4,239.23 I requested.",debit_card_atm,False
+"QR payments work inconsistently — sometimes succeed, sometimes fail for no apparent reason.",qr_payment_failure,True
+"Dear support team, i keep getting 'Card declined' error when using my credit card for contactless payments. This is affecting my daily life.",credit_card_declined,False
+Urgent complaint: fingerprint banking login worked yesterday but is completely broken today without explanation.,biometric_auth_failure,True
+Biometric authentication stopped working on my phone after I changed my screen protector.,biometric_auth_failure,True
+My virtual credit card limit doesn't match what I set when I created it.,virtual_card_issue,True
+Virtual card transactions are not showing up in my transaction history. I'm very disappointed.,virtual_card_issue,True
+I want to report a problem: my virtual card was blocked after one declined transaction online.,virtual_card_issue,True
+I signed up for buy-now-pay-later through your bank but my installment amount is incorrect. This is urgently needed.,bnpl_payment_dispute,True
+Online banking shows my old address and I cannot update my profile. The save button is broken. I will escalate to the regulator if this is not resolved.,online_banking_access,False
+I need help because qR payment limit is too low — I can't use it for larger purchases even with sufficient balance.,qr_payment_failure,True
+I need urgent help — there is an unknown charge from a merchant I've never heard of on my credit card bill. I will escalate to the regulator if this is not resolved.,credit_card_billing,False
+QR payment limit is too low — I can't use it for larger purchases even with sufficient balance. I'm very disappointed.,qr_payment_failure,True
+My bank's crypto wallet balance is showing incorrect amounts after a recent transfer.,crypto_wallet_error,True
+I want to report a problem: your app's face recognition feature is not working in low light. I have to type my password every time. Please look into this immediately.,biometric_auth_failure,True
+This is my third complaint about this issue. i'm not getting 2FA codes via your banking app. My phone number is correct in your system. Please resolve this immediately.,mobile_app_otp,False
+I am extremely frustrated because cannot sign into mobile banking — it keeps asking me to re-register my device even though I've done it multiple times. I'm considering switching banks over this.,mobile_app_login,False
+QR payment limit is too low — I can't use it for larger purchases even with sufficient balance.,qr_payment_failure,True
+QR payment transactions are not appearing in my statement even after 24 hours. This is urgently needed.,qr_payment_failure,True
+Urgent complaint: i cancelled a BNPL purchase but I'm still being charged monthly installments.,bnpl_payment_dispute,True
+QR payment limit is too low — I can't use it for larger purchases even with sufficient balance.,qr_payment_failure,True
+The banking app on my Huawei P60 won't let me sign in. I've tried resetting my password three times but the login still fails. This is affecting my daily life.,mobile_app_login,False
+Your app's face recognition feature is not working in low light. I have to type my password every time.,biometric_auth_failure,True
+My ETC card registration shows active but the toll system keeps rejecting it.,etc_card_toll,False
+"I topped up my ETC card RM 3,415.70 but the toll system still shows zero balance. I expect a response within 24 hours.",etc_card_topup,False
+Urgent complaint: the QR code shown in your app is blurry and merchants cannot scan it. This is urgently needed.,qr_payment_failure,True
+Cannot create a new virtual card — the app says I've reached the limit but I only have one. Please look into this immediately.,virtual_card_issue,True
+This is my third complaint about this issue. my debit card was suddenly blocked. I cannot use it for any transactions. I expect a response within 24 hours.,debit_card_blocked,False
+I'm experiencing an issue where the QR scanner in your app doesn't open. I tap the icon and nothing happens. This is urgently needed.,qr_payment_failure,True
+Fingerprint banking login worked yesterday but is completely broken today without explanation. This is urgently needed.,biometric_auth_failure,True
+I want to report a problem: i set a crypto limit order but it was never executed even though the price target was reached.,crypto_wallet_error,True
+I need help because qR payment at Shell failed halfway through. Money was deducted but I have no transaction record. This is urgently needed.,qr_payment_failure,True
+"Hi, I'm writing to complain that the toll system said my ETC card was invalid even though it's registered and topped up. I'm considering switching banks over this.",etc_card_toll,False
+I'm experiencing an issue where i set a crypto limit order but it was never executed even though the price target was reached. Please look into this immediately.,crypto_wallet_error,True
+I registered my fingerprint for banking authentication but it no longer works. The app rejects my fingerprint every time. Please look into this immediately.,biometric_auth_failure,True
+I want to report a problem: i generated a virtual card for online shopping but it was declined immediately.,virtual_card_issue,True
+This is my third complaint about this issue. debit card suddenly stopped working. I called customer service but they couldn't explain why. This is affecting my daily life.,debit_card_blocked,False
+Online banking dashboard shows all zeros — my accounts and transactions are not displaying.,online_banking_access,False
+I deposited a cheque 5 days ago but it hasn't appeared in my account balance. I will escalate to the regulator if this is not resolved.,account_balance,False
+My debit card was suddenly blocked. I cannot use it for any transactions. I will escalate to the regulator if this is not resolved.,debit_card_blocked,False
+I'm contacting you because your mobile banking app crashes every time I try to open it on my Samsung Galaxy S24. Please resolve this immediately.,mobile_app_crash,False
+I'm experiencing an issue where my bank's crypto wallet balance is showing incorrect amounts after a recent transfer. This is urgently needed.,crypto_wallet_error,True
+I'm experiencing an issue where i tried to send crypto to an external wallet but the transfer has been stuck 'pending' for 3 days. This is urgently needed.,crypto_wallet_error,True
+I'm contacting you because i was charged for an ATM withdrawal that never happened. The machine malfunctioned.,debit_card_atm,False
+"Dear support team, the banking app goes completely black and then crashes when I try to access my loan details.",mobile_app_crash,False
+I registered my fingerprint for banking authentication but it no longer works. The app rejects my fingerprint every time. I'm very disappointed.,biometric_auth_failure,True
+I transferred money in but my account balance hasn't updated. The funds seem to have disappeared. Please resolve this immediately.,account_balance,False
+I'm contacting you because i'm not receiving the OTP SMS needed to complete my transaction. I've been waiting 30 minutes. Please resolve this immediately.,mobile_app_otp,False
+I've been a loyal customer for years and now your internet banking website is extremely slow and times out before I can complete any transaction. I will escalate to the regulator if this is not resolved.,online_banking_access,False
+"Hi, I'm writing to complain that the app freezes for 5 minutes every time I try to view my credit card bill.",mobile_app_crash,False
+I cannot withdraw crypto to my hardware wallet. The destination address field rejects valid addresses.,crypto_wallet_error,True
+QR code payment is extremely slow — takes over 2 minutes to process at the checkout.,qr_payment_failure,True
+I need help because qR payment transactions are not appearing in my statement even after 24 hours.,qr_payment_failure,True
+Urgent complaint: i tried to send crypto to an external wallet but the transfer has been stuck 'pending' for 3 days. This is urgently needed.,crypto_wallet_error,True
+"Hi, I'm writing to complain that your mobile app login page just spins and never loads. I've been unable to access my account since February 04, 2026. This is affecting my daily life.",mobile_app_login,False
+This is my third complaint about this issue. i tried to top up my ETC card via the mobile app but the top-up failed and money was deducted. I'm considering switching banks over this.,etc_card_topup,False
+I'm experiencing an issue where i generated a virtual card for online shopping but it was declined immediately. I'm very disappointed.,virtual_card_issue,True
+"Dear support team, my debit card works at ATMs but is declined at POS terminals in shops. Please resolve this immediately.",debit_card_blocked,False
+I'm experiencing an issue where my virtual debit card number has changed without my approval and now my subscriptions are failing. Please look into this immediately.,virtual_card_issue,True
+I'm unable to add my virtual card to Google Pay. The verification keeps failing. This is urgently needed.,virtual_card_issue,True
+Banking app biometric verification fails every single attempt. Forces me to use password. This is urgently needed.,biometric_auth_failure,True
+This is unacceptable. i'm experiencing constant app crashes on my Samsung Galaxy S24. The app is unusable right now.,mobile_app_crash,False
+My credit card keeps getting declined even though I paid off the full balance last week. I expect a response within 24 hours.,credit_card_declined,False
+I tried to buy Ethereum through your app and got 'Transaction rejected' with no reason given.,crypto_wallet_error,True
+I need help because i tried to transfer crypto from my bank's digital wallet but the transaction failed.,crypto_wallet_error,True
+I'm being charged excessive fees for crypto transactions that weren't disclosed upfront. This is urgently needed.,crypto_wallet_error,True
+Urgent complaint: i cannot withdraw crypto to my hardware wallet. The destination address field rejects valid addresses. I'm very disappointed.,crypto_wallet_error,True
+I'm experiencing an issue where i generated a virtual card for online shopping but it was declined immediately. Please look into this immediately.,virtual_card_issue,True
+I'm contacting you because i returned a product but the refund hasn't appeared on my credit card statement after 3 weeks.,credit_card_billing,False
+I need help because my bank's digital asset account was locked without any explanation or notice.,crypto_wallet_error,True
+I'm not getting 2FA codes via your banking app. My phone number is correct in your system. This is affecting my daily life.,mobile_app_otp,False
+I want to cancel my BNPL plan but there's no cancellation option in the app. This is urgently needed.,bnpl_payment_dispute,True
+"Hi, I'm writing to complain that the ATM shows my transaction was successful but didn't give me the cash. I will escalate to the regulator if this is not resolved.",debit_card_atm,False
+My BNPL plan was supposed to be 12 months but it's charging me as if it's 6 months. I'm very disappointed.,bnpl_payment_dispute,True
+"Hi, I'm writing to complain that i can see my pending transactions but they never cleared, and my available balance is wrong. I expect a response within 24 hours.",account_balance,False
+"Dear support team, i'm being charged an annual fee I never agreed to on my credit card account.",credit_card_billing,False
+I need urgent help — i keep getting 'Card declined' error when using my credit card for contactless payments. I expect a response within 24 hours.,credit_card_declined,False
+"Dear support team, my credit card bill shows a foreign transaction fee for a purchase I made domestically.",credit_card_billing,False
+This is unacceptable. banking app keeps crashing after I tap on 'View Statement'. Other features work fine. I expect a response within 24 hours.,mobile_app_crash,False
+I need urgent help — oTP verification keeps failing. The code you send doesn't match what the app expects. I'm considering switching banks over this.,mobile_app_otp,False
+I paid via QR code but the merchant's system shows payment not received while my account was debited. I'm very disappointed.,qr_payment_failure,True
+I need help because the virtual card I created expired before I could use it. No warning was given. Please look into this immediately.,virtual_card_issue,True
+I need help because i can't find my virtual card details in the banking app. The option seems to have disappeared.,virtual_card_issue,True
+The banking app on my Samsung Galaxy S24 won't let me sign in. I've tried resetting my password three times but the login still fails. I will escalate to the regulator if this is not resolved.,mobile_app_login,False
+Online banking shows my old address and I cannot update my profile. The save button is broken.,online_banking_access,False
+I am extremely frustrated because i traveled abroad and my debit card was blocked without warning. I have no access to cash.,debit_card_blocked,False
+Virtual card generated through your app is not working on international shopping sites.,virtual_card_issue,True
+"Hi, I'm writing to complain that the top-up limit for my ETC card was reduced without notice. I cannot add the amount I need. I'm considering switching banks over this.",etc_card_topup,False
+I need help because the fingerprint scanner in the banking app doesn't respond when I place my finger on it.,biometric_auth_failure,True
+My virtual credit card limit doesn't match what I set when I created it. I'm very disappointed.,virtual_card_issue,True
+The virtual card I created expired before I could use it. No warning was given. This is urgently needed.,virtual_card_issue,True
+I want to report a problem: virtual card CVV changes every hour but the new CVV is not being shown in the app. This is urgently needed.,virtual_card_issue,True
+I need help because fingerprint banking login worked yesterday but is completely broken today without explanation.,biometric_auth_failure,True
+"I want to report a problem: my BNPL credit limit was reduced without any notification, causing my recent purchase to fail. I'm very disappointed.",bnpl_payment_dispute,True
+I need help because the virtual card I created expired before I could use it. No warning was given.,virtual_card_issue,True
+I need help because my BNPL plan was supposed to be 12 months but it's charging me as if it's 6 months. Please look into this immediately.,bnpl_payment_dispute,True
+QR payment at Lazada failed halfway through. Money was deducted but I have no transaction record.,qr_payment_failure,True
+I need help because i tried to enroll a purchase in BNPL but the option was greyed out in the app.,bnpl_payment_dispute,True
+I'm experiencing an issue where the banking app keeps prompting me to register biometrics even though I already did it. This is urgently needed.,biometric_auth_failure,True
+I need help because my bank's digital asset account was locked without any explanation or notice.,crypto_wallet_error,True
+My bank's digital asset account was locked without any explanation or notice.,crypto_wallet_error,True
+I tried to send crypto to an external wallet but the transfer has been stuck 'pending' for 3 days. This is urgently needed.,crypto_wallet_error,True
+I set spending limits on my virtual card but the limit is being ignored.,virtual_card_issue,True
+"After re-registering my face 5 times, the biometric login still fails consistently.",biometric_auth_failure,True
+I need urgent help — mobile banking app doubled my transfer — debited my account twice for a single transaction. I'm considering switching banks over this.,mobile_app_transfer,False
+I want to report a problem: my virtual card was blocked after one declined transaction online.,virtual_card_issue,True
+I am extremely frustrated because my ETC card top-up hasn't been credited even after 58 hours. Transaction reference: TXN-VPOY-297194. I'm considering switching banks over this.,etc_card_topup,False
+I'm unable to reset my online banking password. The 'Forgot Password' link doesn't work. I will escalate to the regulator if this is not resolved.,online_banking_access,False
+The fingerprint scanner in the banking app doesn't respond when I place my finger on it. This is urgently needed.,biometric_auth_failure,True
+I set spending limits on my virtual card but the limit is being ignored. Please look into this immediately.,virtual_card_issue,True

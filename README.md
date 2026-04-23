@@ -11,9 +11,10 @@ Built with **SetFit** (few-shot fine-tuning), **HDBSCAN** clustering, and **Goog
 New Complaints (daily)
         │
         ▼
-┌──────────────────┐
-│  SetFit Classifier │  ← Classifies known topics with confidence score
-└──────────────────┘
+┌──────────────────────────┐
+│   Stable Classifier      │  ← SBERT Embeddings + Logistic Regression
+│ (all-MiniLM-L6-v2 head)  │  ← Classifies known topics with confidence score
+└──────────────────────────┘
         │
    Low confidence?
      ┌──┴───┐
@@ -212,7 +213,7 @@ detector:
   min_cluster_size: 5         # HDBSCAN minimum cluster size
 
 llm:
-  model: "gemma3:4b"          # Ollama model for topic naming
+  model: "gemma4:latest"          # Ollama model for topic naming
 ```
 
 ---

@@ -19,12 +19,14 @@ import json
 import time
 from pathlib import Path
 
-import numpy as np
+import pandas as pd
 import yaml
 from datasets import Dataset
-from setfit import SetFitModel, Trainer, TrainingArguments
-from sklearn.model_selection import train_test_split
+from sentence_transformers import SentenceTransformer
+from sklearn.linear_model import LogisticRegression
 from sklearn.preprocessing import LabelEncoder
+from sklearn.model_selection import train_test_split
+import joblib
 
 ROOT = Path(__file__).resolve().parent.parent.parent
 with open(ROOT / "config.yaml") as f:
@@ -64,85 +66,45 @@ def build_hf_dataset(texts: list[str], labels: list[str]) -> tuple[Dataset, Data
 
 
 def train():
-    print("=" * 60)
-    print("  Complaint Classifier — SetFit Training")
-    print("=" * 60)
+    # 1. Load Data
+    data_path = ROOT / CONFIG["data"]["labeled_dataset"]
+    df = pd.read_csv(data_path)
 
-    # ── Load Data ──────────────────────────────────────────────────────────────
-    print(f"\n📂  Loading data from: {DATA_PATH}")
-    texts, labels = load_data()
-    unique_labels = sorted(set(labels))
-    print(f"   Records : {len(texts):,}")
-    print(f"   Topics  : {len(unique_labels)}")
+    print(f"📂 Loading {len(df)} records for training...")
 
-    # ── Prepare Dataset ────────────────────────────────────────────────────────
-    train_ds, test_ds, le, label2id = build_hf_dataset(texts, labels)
-    print(f"   Train   : {len(train_ds):,} samples")
-    print(f"   Test    : {len(test_ds):,} samples")
+    # 2. Encode Labels (Topics to Numbers)
+    le = LabelEncoder()
+    df['label'] = le.fit_transform(df['topic'])
 
-    # ── Initialize SetFit Model ────────────────────────────────────────────────
-    embedding_model = CONFIG["embeddings"]["model"]
-    print(f"\n🤖  Initializing SetFit with: {embedding_model}")
-    model = SetFitModel.from_pretrained(
-        f"sentence-transformers/{embedding_model}",
-        labels=le.classes_.tolist(),
-    )
+    # 3. Split Data
+    train_df, test_df = train_test_split(df, test_size=0.15, random_state=42, stratify=df['label'])
 
-    # ── Training Arguments ─────────────────────────────────────────────────────
-    args = TrainingArguments(
-        output_dir=str(MODEL_SAVE_PATH),
-        num_epochs=NUM_EPOCHS,
-        num_iterations=NUM_ITERATIONS,
-        batch_size=32,
-        seed=42,
-        sampling_strategy="oversampling",
-    )
+    # 4. Load Embedding Model
+    print("🤖 Encoding text into vectors (this may take a minute)...")
+    model_name = "all-MiniLM-L6-v2"
+    embedder = SentenceTransformer(model_name)
 
-    # ── Train ──────────────────────────────────────────────────────────────────
-    trainer = Trainer(
-        model=model,
-        args=args,
-        train_dataset=train_ds,
-        eval_dataset=test_ds,
-        metric="accuracy",
-    )
+    X_train = embedder.encode(train_df['complaint_text'].tolist(), show_progress_bar=True)
+    y_train = train_df['label'].values
 
-    print("\n🚀  Starting SetFit training...")
-    t0 = time.time()
-    trainer.train()
-    elapsed = time.time() - t0
-    print(f"\n⏱️   Training completed in {elapsed:.1f}s")
+    # 5. Train Classifier (Logistic Regression is excellent for embeddings)
+    print("🧠 Training classifier head...")
+    clf = LogisticRegression(max_iter=1000, C=1.0, class_weight='balanced')
+    clf.fit(X_train, y_train)
 
-    # ── Evaluate ───────────────────────────────────────────────────────────────
-    print("\n📊  Evaluating on test set...")
-    metrics = trainer.evaluate()
-    print(f"   Test Accuracy: {metrics.get('accuracy', metrics):.4f}")
+    # 6. Save everything to the 'models' folder
+    model_dir = ROOT / "models" / "stable_classifier"
+    model_dir.mkdir(parents=True, exist_ok=True)
 
-    # ── Save Model ─────────────────────────────────────────────────────────────
-    MODEL_SAVE_PATH.mkdir(parents=True, exist_ok=True)
-    trainer.model.save_pretrained(str(MODEL_SAVE_PATH))
+    joblib.dump(clf, model_dir / "classifier_head.joblib")
+    joblib.dump(le, model_dir / "label_encoder.joblib")
+    embedder.save(str(model_dir / "embedding_model"))
 
-    # Save label encoder mapping for inference
-    label_map = {"label2id": label2id, "id2label": {str(v): k for k, v in label2id.items()}}
-    with open(MODEL_SAVE_PATH / "label_map.json", "w") as f:
-        json.dump(label_map, f, indent=2)
+    # Save test data temporarily for the evaluation script
+    test_df.to_csv(ROOT / "data" / "test_split.csv", index=False)
 
-    print(f"\n💾  Model saved to: {MODEL_SAVE_PATH}")
-    print("\n✅  Training complete!")
-
-    # ── Detailed Report ────────────────────────────────────────────────────────
-    from sklearn.metrics import classification_report
-    test_texts = test_ds["text"]
-    test_labels_true = [le.classes_[i] for i in test_ds["label"]]
-    preds_int = model.predict(test_texts)
-    preds_labels = [le.classes_[int(p)] for p in preds_int]
-
-    print("\n" + "=" * 60)
-    print("  Classification Report (Test Set)")
-    print("=" * 60)
-    print(classification_report(test_labels_true, preds_labels, digits=3))
-
-    return model, le
+    print(f"✅ Model saved to {model_dir}")
+    return clf, le
 
 
 if __name__ == "__main__":

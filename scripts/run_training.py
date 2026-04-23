@@ -13,6 +13,7 @@ What this does:
 Usage (PyCharm):  Right-click → Run 'run_training'
 """
 
+
 import sys
 from pathlib import Path
 
@@ -21,7 +22,6 @@ sys.path.insert(0, str(ROOT))
 
 import yaml
 from rich.console import Console
-
 console = Console()
 
 with open(ROOT / "config.yaml") as f:
@@ -46,7 +46,7 @@ def main():
     # ── Step 2: Train ─────────────────────────────────────────────────────────
     console.print("\n[bold cyan]Step 1/3: Training SetFit classifier...[/bold cyan]")
     from src.classifier.train import train
-    model, le = train()
+    clf, le = train()
 
     # ── Step 3: Evaluate ──────────────────────────────────────────────────────
     console.print("\n[bold cyan]Step 2/3: Evaluating classifier...[/bold cyan]")

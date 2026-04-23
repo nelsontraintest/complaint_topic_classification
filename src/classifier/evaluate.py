@@ -11,19 +11,16 @@ Usage (PyCharm):  Run this file directly:
 import csv
 import json
 from pathlib import Path
+import joblib
+import pandas as pd
 
-import numpy as np
-import yaml
-from sklearn.metrics import classification_report, accuracy_score, f1_score
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import LabelEncoder
+from sentence_transformers import SentenceTransformer
+from sklearn.metrics import classification_report, accuracy_score, f1_score, confusion_matrix
+import matplotlib.pyplot as plt
+import seaborn as sns
 
 ROOT = Path(__file__).resolve().parent.parent.parent
-with open(ROOT / "config.yaml") as f:
-    CONFIG = yaml.safe_load(f)
 
-DATA_PATH = ROOT / CONFIG["data"]["labeled_dataset"]
-MODEL_SAVE_PATH = ROOT / CONFIG["classifier"]["model_save_path"]
 
 
 def load_data() -> tuple[list[str], list[str]]:
@@ -36,87 +33,46 @@ def load_data() -> tuple[list[str], list[str]]:
 
 
 def evaluate():
-    print("=" * 65)
-    print("  Complaint Classifier — Evaluation")
-    print("=" * 65)
+    model_dir = ROOT / "models" / "stable_classifier"
+    test_path = ROOT / "data" / "test_split.csv"
 
-    if not MODEL_SAVE_PATH.exists():
-        raise FileNotFoundError(
-            f"No model found at {MODEL_SAVE_PATH}.\n"
-            "Run src/classifier/train.py first."
-        )
+    # 1. Load Model and Data
+    clf = joblib.load(model_dir / "classifier_head.joblib")
+    le = joblib.load(model_dir / "label_encoder.joblib")
+    embedder = SentenceTransformer(str(model_dir / "embedding_model"))
+    df_test = pd.read_csv(test_path)
 
-    # ── Load Data ──────────────────────────────────────────────────────────────
-    print(f"\n📂  Loading data: {DATA_PATH}")
-    texts, labels = load_data()
-    le = LabelEncoder()
-    int_labels = le.fit_transform(labels).tolist()
+    # 2. Generate Predictions
+    X_test = embedder.encode(df_test['complaint_text'].tolist())
+    y_test = le.transform(df_test['topic'])
+    y_pred = clf.predict(X_test)
 
-    _, X_test, _, y_test_int = train_test_split(
-        texts, int_labels, test_size=0.15, random_state=42, stratify=int_labels
-    )
-    y_test = [le.classes_[i] for i in y_test_int]
-    print(f"   Test samples: {len(X_test):,}")
+    # 3. Compute Metrics
+    report = classification_report(le.inverse_transform(y_test),
+                                   le.inverse_transform(y_pred),
+                                   output_dict=True)
 
-    # ── Load Model ─────────────────────────────────────────────────────────────
-    from setfit import SetFitModel
-    print(f"\n⚙️   Loading model from: {MODEL_SAVE_PATH}")
-    model = SetFitModel.from_pretrained(str(MODEL_SAVE_PATH))
-
-    label_map_path = MODEL_SAVE_PATH / "label_map.json"
-    id2label = {}
-    if label_map_path.exists():
-        with open(label_map_path) as f:
-            label_map = json.load(f)
-        id2label = label_map.get("id2label", {})
-
-    # ── Predict ────────────────────────────────────────────────────────────────
-    print("\n🔮  Running predictions on test set...")
-    from tqdm import tqdm
-    preds_int = []
-    for text in tqdm(X_test, desc="Predicting"):
-        pred = model.predict([text])
-        preds_int.append(int(pred[0]))
-
-    y_pred = [id2label.get(str(p), le.classes_[p] if p < len(le.classes_) else str(p)) for p in preds_int]
-
-    # ── Metrics ────────────────────────────────────────────────────────────────
-    acc = accuracy_score(y_test, y_pred)
-    f1_macro = f1_score(y_test, y_pred, average="macro")
-    f1_weighted = f1_score(y_test, y_pred, average="weighted")
-
-    print("\n" + "=" * 65)
-    print("  Summary Metrics")
-    print("=" * 65)
-    print(f"  Accuracy         : {acc:.4f} ({acc:.1%})")
-    print(f"  F1 (macro)       : {f1_macro:.4f}")
-    print(f"  F1 (weighted)    : {f1_weighted:.4f}")
-
-    print("\n" + "=" * 65)
-    print("  Per-Class Classification Report")
-    print("=" * 65)
-    print(classification_report(y_test, y_pred, digits=3))
-
-    # ── Save Confusion Matrix ──────────────────────────────────────────────────
-    print("🖼️   Saving confusion matrix...")
-    from src.utils.visualization import plot_confusion_matrix
-    cm_path = ROOT / "data" / "confusion_matrix.png"
-    plot_confusion_matrix(y_test, y_pred, output_path=cm_path)
-
-    # ── Save metrics JSON ──────────────────────────────────────────────────────
     metrics = {
-        "accuracy": round(acc, 4),
-        "f1_macro": round(f1_macro, 4),
-        "f1_weighted": round(f1_weighted, 4),
-        "n_test_samples": len(X_test),
-        "n_topics": len(set(y_test)),
+        "accuracy": accuracy_score(y_test, y_pred),
+        "f1_macro": f1_score(y_test, y_pred, average='macro'),
+        "f1_weighted": f1_score(y_test, y_pred, average='weighted'),
+        "n_test_samples": len(y_test),
+        "n_topics": len(le.classes_)
     }
-    metrics_path = ROOT / "data" / "eval_metrics.json"
-    with open(metrics_path, "w") as f:
-        json.dump(metrics, f, indent=2)
-    print(f"📁  Metrics saved: {metrics_path}")
 
-    print("\n✅  Evaluation complete!")
+    # 4. Save Confusion Matrix
+    plt.figure(figsize=(12, 10))
+    cm = confusion_matrix(y_test, y_pred)
+    sns.heatmap(cm, annot=True, fmt='d', xticklabels=le.classes_, yticklabels=le.classes_)
+    plt.title("Confusion Matrix")
+    plt.ylabel('Actual')
+    plt.xlabel('Predicted')
+    plt.savefig(ROOT / "data" / "confusion_matrix.png")
+
+    # 5. Save Metrics JSON
+    with open(ROOT / "data" / "eval_metrics.json", "w") as f:
+        json.dump(metrics, f, indent=4)
+
     return metrics
 
 
