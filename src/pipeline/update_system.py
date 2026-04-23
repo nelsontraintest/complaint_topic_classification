@@ -6,7 +6,7 @@ Re-trains the classifier to incorporate newly confirmed topics.
 After the daily pipeline detects new topics and a human confirms/names them,
 this script:
 1. Combines the original labeled dataset with labeled new-topic complaints
-2. Re-trains the SetFit classifier on the expanded topic set
+2. Re-trains the stable classifier on the expanded topic set
 3. Recomputes and saves new centroid vectors
 4. Updates config.yaml with the expanded known_topics list
 
