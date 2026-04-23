@@ -21,17 +21,6 @@ import seaborn as sns
 
 ROOT = Path(__file__).resolve().parent.parent.parent
 
-
-
-def load_data() -> tuple[list[str], list[str]]:
-    texts, labels = [], []
-    with open(DATA_PATH, encoding="utf-8") as f:
-        for row in csv.DictReader(f):
-            texts.append(row["complaint_text"])
-            labels.append(row["topic"])
-    return texts, labels
-
-
 def evaluate():
     model_dir = ROOT / "models" / "stable_classifier"
     test_path = ROOT / "data" / "test_split.csv"
